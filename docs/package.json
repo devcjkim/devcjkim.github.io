@@ -1,0 +1,19 @@
+{
+  "name": "devcjkim.github.io",
+  "version": "0.0.1",
+  "description": "devcjkim.github.io",
+  "main": "index.js",
+  "authors": {
+    "name": "devcjkim",
+    "email": "devcjkim@gmail.com"
+  },
+  "repository": "git@github.com:devcjkim/devcjkim.github.io",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}

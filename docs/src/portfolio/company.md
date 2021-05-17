@@ -2,17 +2,23 @@
 ## 와이폴라리스 (2020 - 현재)
 ### [Server] Ketsup API 서버
     Express(Node.js), AWS, sequelize, passport, mariaDB, github 등
-- 무인 매장 서비스 Ketsup 의 백앤드 서버
-- 시스템 기획 및 개발 전략 디렉팅, 개발 환경 구축, 서버 및 백엔드 개발 등
-
+- Node.js 기반 REST API 서버 신규 프로젝트
+- 시스템 기획 및 개발 전략 문서화, 개발 환경 구축, 서버 및 백엔드 개발 등
+- 기존 DB를 그대로 활용해야해서 Sequelize Model 을 이용해 각 테이블을 매핑
+- jwt 를 이용한 인증 및 Naver, Kakao OAuth 로그인 기능.
+- KaKao Pay 등을 이용한 결제 시스템
 
 ### [Web Service] 와이폴라리스 홈페이지
     React.js, Next.js, Material-UI, styled-components, AWS SES, nodemailer
 - 스태틱 홈페이지 개발 및 유지보수 
+- 애니메이션 및 동영상효과
+- SEO를 적용하여 검색엔진 상단에 노출
+- PC, 모바일 환경을 아우르는 반응형 웹
 
 ### [Web Service] Ketsup Snackbar 관리자 사이트
     php, code igniter, nginx
 - 무인 매장 서비스 Ketsup 의 관리자 사이트
+- 버그픽스 및 기능(API) 추가
 
 ## Youyishou  (2019 - 2020)
 ### 디어유 프로젝트
@@ -23,7 +29,7 @@
 - docker-compose.yml 을 이용한 개발 환경 공유
 - express 기반의 백앤드 프로젝트와 React 기반의 프론트앤드의 프로젝트를 구분한 구조
 - 여러 사용자들의 상황을 고려한 DB 설계 및 ERD 작성
-- sequelize를 이용한 테이블 스키마 버전관리 및 ORM을 이용한 쿼리
+- sequelize를 이용한 테이블 스키마 버전관리(마이그레이션 스크립트) 및 ORM을 이용한 쿼리
 
 ### 유이수 통합 유통 관리 시스템
     python,Flask, mySQL, git, Zapier, AWS(EC2, Lambda, API gateway, Route 53 등) 등.

@@ -3,14 +3,25 @@
 ## Open sources
 ### [web framework] weaver
     Node.js, express.js, sequelize, passport, ...
-- 여러 기술들을 엮은 웹 프레임워크
+- 여러 기술들을 엮은 express.js 기반 웹 프레임워크
+- dotenv 를 이용한 환경 변수 관리
+- eslint & prettier 적용
+- sequelize 를 이용한 ORM 관리
+- Router, Model, Query, Controller 로 분리
+- CORS, CSRF 보호
+- passport, jwt 를 이용한 인증
+- 시스템 로그 기능
+- mocha 기반 테스트 환경
+- 편리한 validation schema
+- Alias 적용으로 편리한 임포트
 
 URL: [https://github.com/rlidea/weaver-server](https://github.com/rlidea/weaver-server)
 
 ### [frontend library] create-element.js
     javascript, DOM
 
-- 복잡한 HTML element 들의 가독성 및 재사용성을 위해 개발한 오픈소스 프로젝트.
+- 복잡한 dom element 들의 가독성 및 재사용성을 위해 개발한 오픈소스 프로젝트.
+- `ce.tagName`만으로 dom element 를 생성
 
 URL: [https://www.npmjs.com/package/create-element.js](https://www.npmjs.com/package/create-element.js)
 
@@ -22,7 +33,7 @@ URL: [https://www.npmjs.com/package/create-element.js](https://www.npmjs.com/pac
 URL: [https://www.npmjs.com/package/grid-system.css](https://www.npmjs.com/package/grid-system.css)
 
 ## Web
-### [Web Site] pokedex.info(개발중단됨)
+### [Web Service] pokedex.info(개발중단됨)
     node.js, electron, Vue.js, Docker, mariaDB, AWS, git
 
 - 게임 포켓몬스터의 정보 사이트
@@ -39,7 +50,6 @@ URL: [https://www.npmjs.com/package/grid-system.css](https://www.npmjs.com/packa
 ### [Windows App] Naver Message Helper
     Electron, Vue.js, javascript
 
-- 특정 키워드로 검색되는 네이버 블로그 유저들의 아이디를 수집하는 프로그램.
+- 특정 키워드로 검색되는 네이버 블로그 유저들의 아이디를 수집하는 프로그램
 - 헬스장에서 홍보용 쪽지를 보내는데 시간이 너무 많이 드는 것을 소호하여 선물삼아 개발
-- Electron을 적용하여 Windows에서 실행 가능한 어플리케이션으로 개발함.
-
+- Electron 기반으로 개발하여 Windows에서 실행 가능한 어플리케이션으로 빌드

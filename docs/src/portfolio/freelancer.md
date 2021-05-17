@@ -2,7 +2,7 @@
 
 ## WhatDay (2021)
     wordpress
-- 의류 쇼핑몰 사이트
+- 의류 쇼핑몰 사이트 개발
 
 ## 프란츠몰 (2020)
     javascript, cafe24 shopping mall

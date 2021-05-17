@@ -180,7 +180,7 @@ footer: devcjkim.github.io
     <main>
       <!--welcome-->
       <code>
-        <span class="font-white">Welcome to devcjkim.github.io 1.01.3 LTS (Vue-cli 3.11.0)</span>
+        <span class="font-white">Welcome to devcjkim.github.io 2.0.1 LTS (Vue Press 1.8.2)</span>
       </code>
       <!--whoami-->
       <code>

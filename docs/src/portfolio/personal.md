@@ -14,6 +14,7 @@
 - mocha 기반 테스트 환경
 - 편리한 validation schema
 - Alias 적용으로 편리한 임포트
+- 컨트롤러에서 바로 Swagger 를 작성하여 문서화
 
 URL: [https://github.com/rlidea/weaver-server](https://github.com/rlidea/weaver-server)
 

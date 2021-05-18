@@ -41,6 +41,14 @@ module.exports = {
         text: '포트폴리오',
         link: '/portfolio/'
       },
+      // {
+      //   text: '기술 블로그',
+      //   link: '/blog/'
+      // },
+      {
+        text: 'github',
+        link: 'https://github.com/centell/'
+      },
     ],
     sidebar: {
       '/portfolio/': [
@@ -54,6 +62,15 @@ module.exports = {
           ]
         },
       ],
+      // '/blog/': [
+      //   {
+      //     title: "기술 블로그",
+      //     collapsable: false,
+      //     children: [
+      //       '/blog/macos-terminal-settings',
+      //     ]
+      //   },
+      // ],
     }
   },
 

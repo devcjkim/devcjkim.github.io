@@ -209,10 +209,11 @@ footer: devcjkim.github.io
       </code>
       <code class="ls">
         <span class="font-white list">javascript</span>
+        <span class="font-white list">Typescript</span>
         <span class="font-white list">node.js</span>
         <span class="font-white list">rust</span>
         <span class="font-white list">linux</span>
-        <span class="font-white list">mysql</span>
+        <span class="font-white list">mariaDB</span>
         <span class="font-white list">AWS</span>
         <span class="font-white list">React.js</span>
       </code>

@@ -15,7 +15,7 @@ devcjkim@gmail.com
 
 ## Technical Experiences
 ### 언어
-Javascript(Node.js), Python, Bash, Rust, PHP, Java, Swift, ...
+Javascript(Node.js), Typescript, Python, Bash, Rust, PHP, Java, Swift, ...
 
 ### 마크업
 HTML, Markdown, XML

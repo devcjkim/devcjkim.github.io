@@ -14,7 +14,7 @@
 - 시세 API 연결 작업
 - 시세 정보 시각화 작업
 
-## Alrimtalk Sender (2020)
+## Kakaotalk Biz Message Sender (2020)
     Node.js, React.js, Next.js, mySQL, kakao alimtalk
 - 회원들에게 카카오 알림톡을 보내는 웹 서비스
 

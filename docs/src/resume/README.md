@@ -14,8 +14,8 @@ devcjkim@gmail.com
 - 점진적으로 개선되며 지속가능한 개발 문화를 지향합니다.
 
 ## Technical Experiences
-### 언어
-Javascript(Node.js), Typescript, Python, Bash, Rust, PHP, Java, Swift, ...
+### 선호 언어
+Javascript(Node.js), Typescript, Python, Bash, Rust, ...
 
 ### 마크업
 HTML, Markdown, XML

@@ -22,7 +22,7 @@
 
 ## Youyishou  (2019 - 2020)
 ### 디어유 프로젝트
-    2019. 12. - 2020. 05.
+    2019. 01. - 2020. 06.
     Express(Node.js), AWS, sequelize, passport, mariaDB, github
 
 - 기존 시스템이 사업구조 와 맞지 않고, 또 보안이나 적법성 등의 치명적인 문제점들이 있어 개선된 버전의 개발을 제안
@@ -32,12 +32,13 @@
 - sequelize를 이용한 테이블 스키마 버전관리(마이그레이션 스크립트) 및 ORM을 이용한 쿼리
 
 ### 유이수 통합 유통 관리 시스템
+    2019. 11. - 2020. 03.
     python,Flask, mySQL, git, Zapier, AWS(EC2, Lambda, API gateway, Route 53 등) 등.
 - 중국 수출을 위한 유통 관리 서비스
 - 데이터베이스 분석, 보안 문제 해결, 시스템 유지 보수 및 기능 추가
 
 ### 유이수 배송 정보 관리 시스템
-    2019. 10. - 2020. 06.
+    2019. 11. - 2020. 12.
     python,Flask, mySQL, git, Zapier, AWS(EC2, Lambda, API gateway, Route 53 등) 등.
 - 재고 등록, 판매자, 주문 등을 입력하고 처리하는 통합 유통 관리 시스템
 - 우커머스(쇼핑몰용 위챗 미니 프로그램에서 백앤드로 사용함)에서 발생한 주문 정보를 Zapier와 AWS Lambda 를 이용하여 자동으로 수집함
@@ -45,18 +46,20 @@
 - 지속적인 기능 개선 및 버그/데이터 불일치 수정 등의 요구사항을 수행
 
 ### 네트워크/서버 시스템 개편
+    2019. 11.
     AWS VPC, SSL, Linux
 - 사용자 증가 및 보안을 대비하기 위한 시스템 개편작업
 - 서버 보안강화 및 네트워크 서비스 정리
 
 ### 미니앱 관리 시스템
+    2019. 10. - 2019. 12.
     php, wordpress, mysql, Lambda, Zapier
 - 위챗 위에서 서비스되는 미니앱을 관리하는 시스템
 - 미니앱 관리 시스템 데이터베이스 분석, 시스템 유지 보수 및 기능 추가
 
 ## Weisure (2018 - 2019)
 ### [Chatbot / Web Service] 의사소통
-    2018.02 - 2019.05
+    2018.01 - 2019.06
     php, Laravel, AWS, docker-compose, python, javascript, Vue.js, node.js, mariaDB, git, Ubuntu, bash
 
 - 의료서비스 특화 챗봇 서비스
@@ -79,7 +82,7 @@ URL: http://drsotong.com
 URL: http://drsotong.com
 
 ### [Web Service] 경성바이크
-    2018.02 - 2018.03
+    2018.04
     php, XE, docker-compose, git
 
 - 자전거 정보 공유 및 교육 서비스를 제공하는 커뮤니티 홈페이지
@@ -100,7 +103,7 @@ URL: http://kyungsungbike.com
 
 ## Mr, Mention (2017)
 ### [Web Service] 미스터 트립 버틀러
-    2017.12
+    2017. 10. - 2017. 11.
     node.js, firebase, firebase cli, html, css, javascript, git
 
 - Firebase 기반의 운영자와 사용자 간 1:1 웹 채팅 서비스.
@@ -111,7 +114,7 @@ URL: http://kyungsungbike.com
 - 기능 개발 이후 팀원에게 전달, 프로젝트에 적용됨.
 
 ### [Server] 미스터멘션 AWS 서버 아키텍팅
-    2017.09 - 2017.10
+    2017. 10.
     AWS, Ubuntu, server settings, nginx, tomcat, mariaDB, bash, scheduler
 
 - 버전 2 홈페이지 서비스를 위해 AWS 기반으로 서버 아키텍팅 및 세팅 작업 진행
@@ -121,7 +124,7 @@ URL: http://kyungsungbike.com
 - 정적인 데이터는 S3에, DB는 RDS - mariaDB를 사용하고 서비스는 Multi AZ 구성의 EC2를 사용하며 Load Balancer 와 Route53을 이용하여 사용자와의 통신을 제어. 이때 EC2의 cpu사용량을 기준으로 Auto Scaling 을 적용해 최대 6개의 EC2가 작동할 수 있도록 설계함
 
 ### [iOS App] 미스터멘션 어플리케이션
-    2017.07 - 2017.08
+    2017. 08. - 2017. 09.
     Swift, cocoapod, php, git, postman, ftp
 
 - 회사의 요구에 따라 iOS 네이티브 앱 개발을 기획부터 개발까지 담당
@@ -133,7 +136,7 @@ URL: http://kyungsungbike.com
 URL: https://apps.apple.com/kr/app/%EB%AF%B8%EC%8A%A4%ED%84%B0%EB%A9%98%EC%85%98/id1296156335
 
 ### [Web Service] 미스터멘션
-    2017.02 - 2017.12
+    2017. 02. - 2017. 12.
     php, Laravel, MySQL, javascript, git, vagrant, Linux(CentOS), Server Settings
 
 - 플랫폼 홈페이지 유지보수, 기능 개선 및 추가
@@ -146,7 +149,7 @@ URL: https://mrmention.co.kr
 
 ## Venditz (2016)
 ### [Web Service] 이사모아 관리자 페이지 기능 추가
-    2016.11  
+    2016. 09. - 2016.11.
     php, Laravel, MySQL, javascript, git, postman    
 
 - 매출관리, 마케팅 비용(ROAS)관리, 견적 및 사용자 통계, 유입 경로 통계 페이지 생성

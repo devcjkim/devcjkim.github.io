@@ -47,7 +47,7 @@ URL: [https://www.npmjs.com/package/grid-system.css](https://www.npmjs.com/packa
 - 확장성과 i18n을 고려한 DB 설계
 - sequelize 를 이용한 테이블 스키마 버전관리 및 ORM을 이용한 쿼리
 
-## Descktop App
+## Desktop App
 ### [Windows App] Naver Message Helper
     Electron, Vue.js, javascript
 

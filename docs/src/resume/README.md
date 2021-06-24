@@ -90,7 +90,7 @@ iOS, Android Application, Electron Windows Application, ...
   - Node.js 기반 채팅 시스템을 개발했습니다.
 - 사용기술: Node.js, Laravel(php), AWS(EC2, S3, RDS, ELB, VPC 등), javascript, css, mySQL, git 등
 
-### 밴디츠 (2016. 08. - 2016. 11.)
+### 벤디츠 (2016. 08. - 2016. 11.)
 - 포지션: 웹 개발 인턴
 - 담당업무:
   - 웹 개발 및 통계분석 업무를 담당했습니다.

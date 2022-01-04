@@ -46,7 +46,14 @@ git, github, gitlab, github action, jenkins, ...
 iOS, Android Application, Electron Windows Application, ...
 
 ## Work Experiences
-### 와이폴라리스 (2020. 07. - 현재)
+### 월간해킹 (2021. 08. - 현재)
+- 포지션: 백엔드 개발자
+- 담당업무:
+  - Typescript 기반 REST API 서버 신규 프로젝트 개발을 진행했습니다.
+  - 시스템 기획, 개발 환경 구축, 서버 및 백엔드 개발 등을 진행했습니다.
+- 사용기술: Nest.js(Typescript) 등
+
+### 와이폴라리스 (2020. 07. - 2021. 08.)
 - 포지션: 백엔드 개발자  
 - 담당업무: 
   - Node.js 기반 REST API 서버 신규 프로젝트 개발을 진행했습니다.

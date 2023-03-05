@@ -1,9 +1,37 @@
 # 회사 프로젝트
-## 월간해킹 (2021 - 현재)
+## 월간해킹 (2021 - 2022)
+### [Server] Penet-checker-backend
+    Nest.js(Node.js, Typescript), monorepo, bull, mariaDB, redis, mongoDB, AWS 등
+- Nest.js 기반 REST API 서버 신규 프로젝트. monorepo 로 여러가지 프로젝트가 포함됨.
+  - 사용자(checker-api): 고객이 사용하는 클라이언트가 요청하는 REST API 프로젝트. 검사 결과를 제외한 다른 요청들을 책임짐
+  - 취약점 검사(core-api): 웹사이트 및 모바일 어플리케이션(iOS, Android)의 보안 문제를 점검하고, 그 데이터를 저장
+  - 취약점 검사(core-worker): core-api를 통해 받은 요청을 queue 에 넣고 수행. 주로 검사 및 저장 작업에 사용 (취약점 검사에 시간이 많이 걸려서 각각의 이벤트의 실행을 보장하기 위해 queue 를 이용하여 처리)
+  - 취약점 결과 보고서 출력(report-creator): 저장된 검사 결과 데이터를 보고서 형태로 생성
+  - 관리자(checker-admin-api): 고객을 관리하기 위한 클라이언트가 요청하는 REST API 프로젝트
+- 요청이 오래 걸리는 이벤트나 결제 등 절대로 요청 결과가 누락되서는 안 되는 이벤트를 queue 를 이용하여 처리
+- 여러 데이터베이스(mariaDVB, redis, mongoDB)를 용도에 맞게 활용
+- 프론트엔드 개발자와 Postman 팀 서비스를 이용해 실시간으로 엔드포인트 및 예제를 공유
+- Toss Payment 를 이용한 결제 시스템
+
+### [Server] 악성메일 모의훈련 서비스 (Mailing Test)
+    Express(Node.js, javascript), AWS, mariaDB 등
+- 메가존 클라우드를 통해 보안 솔루션으로 제공되는 악성메일 모의훈련 서비스
+- 유명 쇼핑몰, 포탈 사이트, 코드 관리 사이트 등에서 사용하는 메일 형식을 도용하여 사용자의 정보 입력 및 첨부파일을 다운로드를 유도하고, 그 결과를 보고서로 생성
+- javascript 실행 가능 환경에서 메일 열람 여부, 도용 사이트 접속 여부, 도용 사이트에 개인정보 입력 여부, 첨부파일 다운로드 여부 등을 파악
+
+### [Server] Hyper Scan
+    Express(Node.js, javascript), AWS, rabbitMQ, mariaDB 등
+- 메가존 클라우드를 통해 보안 솔루션으로 제공되는 취약점 검사 서비스
+- 고객의 웹사이트 및 모바일 어플리케이션(iOS, Android)의 보안 문제를 점검하고 그 데이터를 레포트로 생성
+
+### [Server] Penet 버그 바운티 커뮤니티
+    Express(Node.js, javascript), sequelize, mariaDB, Vue.js, AWS 등
+- 의뢰인과 해커들을 연결해주는 버그 바운티 커뮤니티
+- 사용자의 성격(의뢰인, 해커)및 권한에 따라 다른 메뉴 및 화면을 출력
 
 ## 와이폴라리스 (2020 - 2021)
 ### [Server] Ketsup API 서버
-    Express(Node.js), AWS, sequelize, passport, mariaDB, github 등
+    Express(Node.js, javascript), AWS, sequelize, passport, mariaDB, github 등
 - Node.js 기반 REST API 서버 신규 프로젝트
 - 시스템 기획 및 개발 전략 문서화, 개발 환경 구축, 서버 및 백엔드 개발 등
 - 기존 DB를 그대로 활용해야해서 Sequelize Model 을 이용해 각 테이블을 매핑
@@ -26,7 +54,6 @@
 ### 디어유 프로젝트
     2019. 01. - 2020. 06.
     Express(Node.js), AWS, sequelize, passport, mariaDB, github
-
 - 기존 시스템이 사업구조 와 맞지 않고, 또 보안이나 적법성 등의 치명적인 문제점들이 있어 개선된 버전의 개발을 제안
 - docker-compose.yml 을 이용한 개발 환경 공유
 - express 기반의 백앤드 프로젝트와 React 기반의 프론트앤드의 프로젝트를 구분한 구조

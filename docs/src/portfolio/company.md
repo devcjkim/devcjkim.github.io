@@ -27,7 +27,7 @@
 ### [Server] Penet 버그 바운티 커뮤니티
     Express(Node.js, javascript), sequelize, mariaDB, Vue.js, AWS 등
 - 의뢰인과 해커들을 연결해주는 버그 바운티 커뮤니티
-- 사용자의 성격(의뢰인, 해커)및 권한에 따라 다른 메뉴 및 화면을 출력
+- 사용자의 성격(의뢰인, 해커) 및 권한에 따라 다른 메뉴 및 화면을 출력
 
 ## 와이폴라리스 (2020 - 2021)
 ### [Server] Ketsup API 서버

@@ -50,8 +50,9 @@ iOS, Android Application, Electron Windows Application, ...
 
 ## Work Experiences
 ### 월간해킹 (2021. 08. - 현재)
-- 포지션: 백엔드 개발자
-- 담당업무:
+- 도메인: 보안, 구독 서비스, 커뮤니티 
+- 포지션: 백엔드 개발자 
+- 담당업무: 
   - Nest.js(Typescript) 기반 REST API 신규 프로젝트 개발을 진행했습니다.
   - Monorepo 를 이용해 여러 도메인을 한 프로젝트에서 관리했습니다.
   - bull 을 이용해 이벤트를 queue 로 처리했습니다.
@@ -59,6 +60,7 @@ iOS, Android Application, Electron Windows Application, ...
 - 사용기술: Nest.js(Typescript), Express(Javascript, Node.js), AWS(EC2, S3, SES 등), mariaDB, MongoDB, Redis 등
 
 ### 와이폴라리스 (2020. 07. - 2021. 08.)
+- 도메인: AI, 무인매장
 - 포지션: 백엔드 개발자  
 - 담당업무: 
   - Node.js 기반 REST API 서버 신규 프로젝트 개발을 진행했습니다.
@@ -69,6 +71,7 @@ iOS, Android Application, Electron Windows Application, ...
 - 사용기술: Express(Node.js), AWS(EC2, S3, SES 등), mariaDB 등
 
 ### 유이수 (2019. 10. - 2020. 05.)
+- 도메인: 쇼핑몰, 국제 커머스
 - 포지션: 개발 팀장, 백엔드 개발자  
 - 담당업무:
   - 시스템 기획 및 개발 전략 디렉팅, 개발 환경 구축, DB 설계, 서버 및 백엔드 개발 등을 총괄했습니다.
@@ -81,6 +84,7 @@ iOS, Android Application, Electron Windows Application, ...
 - 사용기술: Express(Node.js), React.js, AWS(EC2, Lambda, API gateway, Route 53 등), Flask(python), Zapier 등
 
 ### 웨저 (2018. 01. - 2019. 06.)
+- 도메인: 도메인: AI, 챗봇, 병원
 - 포지션: 웹 개발자  
 - 담당업무:
   - Laravel(php) 및 Node.js 기반 서버 신규 프로젝트 개발에 참여했습니다.
@@ -93,6 +97,7 @@ iOS, Android Application, Electron Windows Application, ...
 - 사용기술: Node.js, Laravel(PHP), AWS(EC2, RDS, S3, SES, VPC), javascript, docker, Python, Vue.js, mariaDB, bash 등
 
 ### 미스터멘션 (2017. 02. - 2017. 12.)
+- 도메인: 숙소 예약, 여행
 - 포지션: 개발 팀장, 웹 개발자
 - 담당업무:
   - 메인 개발자로서 전반적인 사이트 기능 추가 및 유지보수를 담당했습니다.
@@ -103,6 +108,7 @@ iOS, Android Application, Electron Windows Application, ...
 - 사용기술: Node.js, Laravel(php), AWS(EC2, S3, RDS, ELB, VPC 등), javascript, css, mySQL, git 등
 
 ### 벤디츠 (2016. 08. - 2016. 11.)
+- 도메인: 이사, 견적 제안 및 거래 매칭
 - 포지션: 웹 개발 인턴
 - 담당업무:
   - 웹 개발 및 통계분석 업무를 담당했습니다.

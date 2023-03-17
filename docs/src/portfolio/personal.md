@@ -18,6 +18,15 @@
 
 URL: [https://github.com/rlidea/weaver-server](https://github.com/rlidea/weaver-server)
 
+### [창업] BodyUS
+    Node.js, express.js, React, ...
+- 개인 피트니스. 운동 학습 및 관리 서비스
+- 헬스 트레이너가 고객을 쉽게 관리하고, 운동을 체계적으로 지원할 수 있도록 설계됨
+- 2020 - 2021 무렵 창업을 준비했으나 예비 창업 패키지 사업에 붙지 못해 좌절
+- 웹 및 모바일 앱(웹앱)으로 준비됨
+
+URL: [https://github.com/bodyus](https://github.com/bodyus) (Private)
+
 ### [frontend library] create-element.js
     javascript, DOM
 

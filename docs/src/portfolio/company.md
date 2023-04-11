@@ -9,7 +9,7 @@
   - 취약점 결과 보고서 출력(report-creator): 저장된 검사 결과 데이터를 보고서 형태로 생성
   - 관리자(checker-admin-api): 고객을 관리하기 위한 클라이언트가 요청하는 REST API 프로젝트
 - 요청이 오래 걸리는 이벤트나 결제 등 절대로 요청 결과가 누락되서는 안 되는 이벤트를 queue 를 이용하여 처리
-- 여러 데이터베이스(mariaDVB, redis, mongoDB)를 용도에 맞게 활용
+- 여러 데이터베이스(mariaDB, redis, mongoDB)를 용도에 맞게 활용
 - 프론트엔드 개발자와 Postman 팀 서비스를 이용해 실시간으로 엔드포인트 및 예제를 공유
 - Toss Payment 를 이용한 결제 시스템
 

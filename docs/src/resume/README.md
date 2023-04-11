@@ -49,7 +49,7 @@ git, github, gitlab, github action, jenkins, ...
 iOS, Android Application, Electron Windows Application, ...
 
 ## Work Experiences
-### 월간해킹 (2021. 08. - 현재)
+### 월간해킹 (2021. 08. - 2022. 09.)
 - 도메인: 보안, 구독 서비스, 커뮤니티 
 - 포지션: 백엔드 개발자 
 - 담당업무: 

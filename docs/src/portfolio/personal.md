@@ -40,12 +40,15 @@ express.js 기반 웹 프레임워크 보일러플레이트. weaver2의 전신.
 
 URL: [https://github.com/centell/weaver2](https://github.com/centell/weaver2)
 
-### [창업] BodyUS
-    Node.js, express.js, React, ...
-- 개인 피트니스. 운동 학습 및 관리 서비스
-- 헬스 트레이너가 고객을 쉽게 관리하고, 운동을 체계적으로 지원할 수 있도록 설계됨
-- 2020 - 2021 무렵 창업을 준비했으나 예비 창업 패키지 사업에 붙지 못해 좌절
-- 웹 및 모바일 앱(웹앱)으로 준비됨
+### [창업 도전] BodyUS
+    Node.js, Express.js, Next.js, iOS(Swift), MariaDB, Docker
+
+헬스 트레이너가 고객을 관리하고 운동을 체계적으로 지원하는 피트니스 플랫폼. 2020~2021년 창업을 목표로 기획·개발.
+
+- 백엔드(Express.js), 웹 프론트엔드(Next.js), iOS 앱(Swift) 세 플랫폼을 1인 설계·개발
+- Sequelize ORM, Passport + JWT 인증, i18n 다국어 지원, Docker 개발 환경 구성
+- 트레이너의 고객 관리 및 운동 지원 워크플로우를 직접 기획하여 서비스 전반 설계
+- 예비 창업 패키지에 도전한 경험
 
 URL: [https://github.com/bodyus](https://github.com/bodyus) (Private)
 

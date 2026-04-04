@@ -16,7 +16,7 @@
 - 점진적으로 개선되며 지속가능한 개발 문화를 지향합니다.
 
 ## Introduce
-Node.js로 개발하는 것을 좋아합니다. 주로 Javascript 및 Typescript 로 백엔드 개발을 했습니다.
+TypeScript/Node.js를 주력으로 약 9년간 백엔드 개발을 해왔으며, 프론트엔드·모바일·인프라까지 직접 다루는 풀스택 개발자입니다.
 저는 개선을 좋아합니다. 모든것에 완벽한 상태란 없으며 계속해서 개선되고 나아질 수 있다고 생각합니다. 이것은 밖으로만 향하는 것이 아니라, 저에게도 마찬가지입니다. 제 단점과 아쉬운 점들에 대해 듣는것을 즐기며 감사히 여깁니다.
 커뮤니케이션을 잘 하는 편이라는 말을 많이 듣습니다. 팀원들의 의견을 듣고 현 상황에서 가능한 방법을 찾아 문제를 해결해나가는 편입니다. 시간/비용상 안 되는건 안된다고 인정하고, 그 상황에서도 가장 나은 결과를 찾는걸 즐깁니다.  
 팀원 모두가 견딜 수 있는 페이스로 지속적이고 안정적으로 결과를 내는 개발 문화를 지향합니다. 개발팀의 운영에 있어서 가장 중요한 것은 팀이 붕괴하지 않는 것이며, 예측할 수 있는 결과물을 계속 내는 것이라고 생각합니다. 무너지지 않는 견고한 문화를 가진 개발팀과 함께할 때 회사도 개인도 가장 빠르게 성장할 수 있다고 생각합니다.  
@@ -46,6 +46,9 @@ AWS(EC2, ECS, S3, Amplify, Lambda, CloudWatch 등), Docker, docker-compose, ngin
 
 ### 형상관리, CI/CD 및 협업
 git, GitHub, GitLab, GitHub Actions, Jenkins, ...
+
+### AI / LLM
+Claude API, MCP(Model Context Protocol), pgvector(벡터 DB), Prompt Engineering, LLM 연동 서비스 개발
 
 ### 기타
 Electron Windows Application, ...
@@ -77,50 +80,48 @@ Electron Windows Application, ...
 - 사용기술: NestJS(TypeScript), Next.js, Flutter, AWS(ECS, Amplify, S3, CloudWatch), MongoDB, Redis, SQLite, GitHub Actions 등
 
 ### 월간해킹 (2021. 08. - 2023. 05)
+- 도메인: 보안, 버그바운티
 - 포지션: 백엔드 개발자
 - 담당업무:
-  - Nest.js(Typescript) 기반 REST API 신규 프로젝트 개발을 진행했습니다.
-  - Monorepo 를 이용해 여러 도메인을 한 프로젝트에서 관리했습니다.
-  - bull 을 이용해 이벤트를 queue 로 처리했습니다.
-  - 시스템 기획, 개발 환경 구축, 서버 및 백엔드 개발 등을 진행했습니다.
-- 사용기술: Nest.js(Typescript), Express(Javascript, Node.js), AWS(EC2, S3, SES 등), mariaDB, MongoDB, Redis 등
+  - 보안 취약점 신고·검증·보상 전 과정을 지원하는 **버그바운티 플랫폼(penet)** 풀스택 개발을 진행했습니다. 결제, 포인트, 순위, 리포트 등 서비스 핵심 도메인을 포함합니다.
+  - **취약점 자동 스캐너(penet-checker)** 백엔드를 NestJS 모노레포로 설계·개발했습니다. Bull Queue 기반 비동기 스캔 워커(core-queue-worker, hyper-scan-api), 리포트 자동 생성(report-creator), pentest-tools-provider 등 공유 라이브러리로 구성했습니다.
+  - 다수의 마이크로서비스 앱과 공유 라이브러리를 모노레포 구조로 관리하여 코드 재사용성과 배포 독립성을 확보했습니다.
+  - 시스템 기획, 개발 환경 구축, AWS 인프라 설정 등을 담당했습니다.
+- 사용기술: NestJS(TypeScript), Express(Node.js), Bull Queue, AWS(EC2, S3, SES 등), MariaDB, MongoDB, Redis 등
 
 ### 와이폴라리스 (2020. 07. - 2021. 08.)
 - 도메인: AI, 무인매장
-- 포지션: 백엔드 개발자  
-- 담당업무: 
-  - Node.js 기반 REST API 서버 신규 프로젝트 개발을 진행했습니다.
-  - 시스템 기획, 개발 환경 구축, 서버 및 백엔드 개발 등을 진행했습니다.
-  - Jenkins 를 활용한 배포 스크립트를 작성했습니다.
-  - Next.js 기반 스태틱 홈페이지 신규 개발 및 유지보수를 진행했습니다.
-  - Code igniter 기반 홈페이지 유지보수 및 기능추가에 참여했습니다.
-- 사용기술: Express(Node.js), AWS(EC2, S3, SES 등), mariaDB 등
+- 포지션: 백엔드 개발자
+- 담당업무:
+  - 무인 스낵바·편의점 운영 플랫폼 **Ketsup**의 API 서버를 신규 개발했습니다. 조직·매장·상품·주문·결제·통계·포인트 등 커머스 핵심 도메인 전반을 설계·구현했습니다.
+  - Jenkins를 활용한 CI/CD 배포 파이프라인을 구축했습니다.
+  - Next.js 기반 회사 홈페이지를 신규 개발했습니다.
+  - CodeIgniter 기반 레거시 홈페이지의 유지보수 및 기능 추가를 담당했습니다.
+- 사용기술: Express(Node.js), Next.js, Jenkins, AWS(EC2, S3, SES 등), MariaDB 등
 
 ### 유이수 (2019. 10. - 2020. 05.)
 - 도메인: 쇼핑몰, 국제 커머스
-- 포지션: 개발 팀장, 백엔드 개발자  
+- 포지션: 개발 팀장, 백엔드 개발자
 - 담당업무:
-  - 시스템 기획 및 개발 전략 디렉팅, 개발 환경 구축, DB 설계, 서버 및 백엔드 개발 등을 총괄했습니다.
-  - Node.js 기반 REST API 서버 신규 프로젝트 개발을 진행했습니다.
-  - 초기 Flask 로 작성된 프로젝트에 디자인패턴(Router, MVC) 및 ORM을 도입했습니다.
-  - 기존 프로젝트에 보안 취약점 (SSL, CORS, CSRF)등의 작업을 하였습니다.
-  - 기존 DB의 무결성이 훼손되어있어, 마이그레이션을 진행했습니다.
-  - 사내 위키문화를 독려하여 개발 문서가 정리되도록 했습니다.
-  - 기존 아키텍처에 비효율적인 부분들이 있어 개선작업을 진행하였고, 월 30여 만원 정도 나가던 서버 비용을 15만원 이하로 낮췄습니다.
-- 사용기술: Express(Node.js), React.js, AWS(EC2, Lambda, API gateway, Route 53 등), Flask(python), Zapier 등
+  - 시스템 기획·개발 전략 디렉팅, DB 설계, 서버 및 백엔드 개발 전반을 총괄했습니다.
+  - Express.js + Sequelize ORM 기반 REST API 서버를 신규 설계·개발했습니다. 역할 기반 접근 제어(권한·메뉴 관계), 공통 코드 관리, Docker 개발 환경을 포함하여 구축했습니다.
+  - 초기 Flask로 작성된 레거시 프로젝트에 MVC 패턴, ORM, 보안(SSL, CORS, CSRF)을 도입했습니다.
+  - 무결성이 훼손된 기존 DB를 분석하여 마이그레이션을 수행했습니다.
+  - 기존 아키텍처의 비효율을 개선하여 월 서버 비용을 30만 원대에서 15만 원 이하로 절감했습니다.
+  - 사내 위키 문화를 도입하여 개발 문서를 체계화했습니다.
+- 사용기술: Express(Node.js), Sequelize, React.js, Docker, AWS(EC2, Lambda, API Gateway, Route 53 등), Flask(Python), Zapier 등
 
 ### 웨저 (2018. 01. - 2019. 06.)
-- 도메인: 도메인: AI, 챗봇, 병원
-- 포지션: 웹 개발자  
+- 도메인: AI, 챗봇, 병원
+- 포지션: 웹 개발자
 - 담당업무:
-  - Laravel(php) 및 Node.js 기반 서버 신규 프로젝트 개발에 참여했습니다.
-  - 챗봇 학습도구 개발을 주로 담당했습니다.
-  - Vue.js 기반 홈페이지를 개발했습니다.
-  - 바닐라 javascript 로 동적 화면을 개발했습니다.
-  - 오래된 서버에 있던 구형 php 프로젝트들을 AWS로 마이그레이션했습니다.
-  - 협업 도구(Trello, Slack, google docs)들을 팀에게 알리고 사용 문화를 정착시키기 위해 힘썼습니다.
-  - iOS, Android 등의 모바일 어플 개발 및 유지보수에 앱 개발자 포지션으로 참여했습니다.
-- 사용기술: Node.js, Laravel(PHP), AWS(EC2, RDS, S3, SES, VPC), javascript, docker, Python, Vue.js, mariaDB, bash 등
+  - 의료 AI 챗봇 서비스 **의사소통(carebot)** 의 학습 데이터 관리 도구, RS 시나리오 매니저, 푸시 매니저 등 챗봇 운영·학습 도구를 주도적으로 개발했습니다.
+  - 카카오 채널 연동 챗봇 뷰 및 예약 시스템을 개발했습니다.
+  - 가비아 서버에 있던 구형 PHP 프로젝트들을 AWS로 마이그레이션했습니다.
+  - Vue.js 기반 회사 홈페이지 및 바닐라 JavaScript 기반 웹 채팅 클라이언트를 개발했습니다.
+  - iOS, Android 모바일 앱 개발 및 유지보수에 참여했습니다.
+  - Trello, Slack, Google Docs 등 협업 도구를 팀에 도입하고 사용 문화를 정착시켰습니다.
+- 사용기술: Laravel(PHP), Node.js, Vue.js, AWS(EC2, RDS, S3, SES, VPC), JavaScript, Docker, Python, MariaDB, Bash 등
 
 ### 미스터멘션 (2017. 02. - 2017. 12.)
 - 도메인: 숙소 예약, 여행

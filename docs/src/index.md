@@ -1,7 +1,7 @@
 ---
 home: true
-actionText: 이력서 →
-actionLink: /resume/
+heroText: null
+tagline: null
 footer: devcjkim.github.io  
 ---
 
@@ -81,9 +81,10 @@ footer: devcjkim.github.io
   background-color: #252929;
   color: #727674;
   text-align: center;
-  padding: 5px 0;
 }
 .terminal nav ul li a {
+  display: block;
+  padding: 5px 0;
   color: #727674;
 }
 .terminal nav ul li:hover {
@@ -168,8 +169,8 @@ footer: devcjkim.github.io
         <div class="yellow"></div>
         <div class="green"></div>
       </div>
-      <div class="title-desktop">devcjkim.github.io ─ devcjkim@devcjkim-Github-pages</div>
-      <div class="title-mobile">devcjkim.github.io</div>
+      <div class="title-desktop">zsh ─ ~/portfolio</div>
+      <div class="title-mobile">~/portfolio</div>
     </header>
     <nav>
       <ul class="grid-row">
@@ -243,14 +244,18 @@ footer: devcjkim.github.io
 <div class="features">
   <div class="feature">
     <a href="/resume"><h2>Resume</h2></a>
-    <p>
-      저에 대해 소개합니다.
-    </p>
+    <a href="/resume">
+      <p>
+        저에 대해 소개합니다.
+      </p>
+    </a>
   </div>
 <div class="feature">
     <a href="/portfolio"><h2>Portfolio</h2></a>
-    <p>
-      제가 경험한 프로젝트들을 소개합니다.
-    </p>
+    <a href="/portfolio">
+      <p>
+        제가 경험한 프로젝트들을 소개합니다.
+      </p>
+    </a>
   </div>
 </div>

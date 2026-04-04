@@ -5,7 +5,7 @@
     NestJS(TypeScript), PostgreSQL, Prisma, JWT, pnpm 모노레포
 
 - NestJS 기반 백엔드 베이스 프레임워크. 개인 프로젝트 및 사내 프로젝트의 시작점으로 활용
-- pnpm 모노레포 구조로 백엔드(core-backend)와 프론트엔드(core-frontend)를 함께 관리
+- pnpm 모노레포 구조로 다수의 도메인 앱과 공유 라이브러리(core-file, core-logger, core-security, core-message, core-board 등)를 함께 관리
 - Prisma ORM 기반 DB 마이그레이션, JWT 인증(AccessToken/RefreshToken), 환경변수 관리 등 보일러플레이트 구축
 - 반복적인 프로젝트 셋업 비용을 줄이기 위해 직접 설계 및 지속 개선 중
 
@@ -81,6 +81,18 @@ URL: [https://github.com/centell/watchdog](https://github.com/centell/watchdog)
 - 번역되지 않은 일본어 서적을 읽기 위해 직접 개발
 
 URL: [https://github.com/centell/book-translator](https://github.com/centell/book-translator)
+
+## Game
+### [Indie Game] WitchStella
+    Godot 4(GDScript), 솔로 개발
+
+- 마녀와 별을 소재로 한 인디게임. 현실 파트(비주얼 노벨)와 개념세계 파트(2D 플랫포머)가 교차하는 하이브리드 구조
+- 별자리 맵 기반 스테이지 선택, 튜토리얼 레벨 설계("텍스트 없이 레벨 디자인으로 가르친다" 철학 적용)
+- 씬 co-location 구조로 리팩토링하여 유지보수성 향상
+- i18n(다국어) 시스템, 키보드 리맵핑 설정 화면, 포커스 내비게이션 등 UI 시스템 직접 구현
+- 기획부터 개발까지 1인 진행
+
+URL: [https://github.com/centell/witchstella](https://github.com/centell/witchstella)
 
 ## Desktop App
 ### [Windows App] Naver Message Helper

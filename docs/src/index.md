@@ -186,14 +186,14 @@ footer: devcjkim.github.io
       <code>
         <span class="font-sky-blue">devcjkim.github.io</span>
         <span class="font-blue">
-          git:(<span class="font-red">master</span>)</span> $ <span class="font-green">whoami
+          git:(<span class="font-red">main</span>)</span> $ <span class="font-green">whoami
         </span>
       </code>
       <code>
         <span class="font-white">name: kim chan joong</span>
       </code>
       <code>
-        <span class="font-white">job: web developer</span>
+        <span class="font-white">role: Full-stack Developer (Backend-focused)</span>
       </code>
       <code>
         <span class="font-white">location: Busan, Korea</span>
@@ -202,18 +202,18 @@ footer: devcjkim.github.io
       <code>
         <span class="font-sky-blue">devcjkim.github.io</span>
         <span class="font-blue">
-          git:(<span class="font-red">master</span>)
+          git:(<span class="font-red">main</span>)
         </span>
         $ <span class="font-green">cat <span class="font-white">favorite-tech</span>
         </span>
       </code>
       <code class="ls">
-        <span class="font-white list">javascript</span>
-        <span class="font-white list">Typescript</span>
-        <span class="font-white list">node.js</span>
-        <span class="font-white list">rust</span>
-        <span class="font-white list">linux</span>
-        <span class="font-white list">mariaDB</span>
+        <span class="font-white list">JavaScript</span>
+        <span class="font-white list">TypeScript</span>
+        <span class="font-white list">Node.js</span>
+        <span class="font-white list">Rust</span>
+        <span class="font-white list">Linux</span>
+        <span class="font-white list">MariaDB</span>
         <span class="font-white list">AWS</span>
         <span class="font-white list">React.js</span>
       </code>
@@ -223,7 +223,7 @@ footer: devcjkim.github.io
         $ <span class="font-green">ls </span> <span class="font-white">PersonalProjects</span>
       </code>
       <code class="ls">
-        <span class="list"><a class="font-sky-blue" href="https://github.com/rlidea/weaver-serrver">weaver-framework</a></span>
+        <span class="list"><a class="font-sky-blue" href="https://github.com/centell/weaver2">weaver2</a></span>
         <span class="list"><a class="font-sky-blue" href="https://www.npmjs.com/package/create-element.js">create-element.js</a></span>
         <span class="list"><a class="font-sky-blue" href="https://www.npmjs.com/package/grid-system.css">grid-system.css</a></span>
       </code>
@@ -236,7 +236,7 @@ footer: devcjkim.github.io
 </div>
 
 <div style="display: flex; justify-content: center;">
-  주로 서버 및 백앤드 개발을 담당하며 프론트 개발까지 가능한 풀스택 지향 개발자입니다.<br/>
+  주로 서버 및 백엔드 개발을 담당하며 프론트 개발까지 가능한 풀스택 지향 개발자입니다.<br/>
   클라우드, Docker 등을 이용한 아키텍팅 등 전반적인 웹 개발 영역을 경험했습니다.
 </div>
 

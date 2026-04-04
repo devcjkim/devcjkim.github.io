@@ -1,16 +1,18 @@
 # Resume
 
-김찬중. 웹 개발자.
-devcjkim@gmail.com
+김찬중 · 풀스택 개발자 (약 9년차)
+
+- devcjkim@gmail.com
+- github.com/centell
 
 ## Job
-소프트웨어 개발 / 웹 개발
+소프트웨어 개발 / 웹 풀스택 개발
 
 ## Summary
-- 주로 서버 및 백엔드 개발을 담당하며 프론트 개발까지 가능한 풀스택 지향 개발자입니다.
-- Node.js Express 기반의 백엔드 개발이 특기이며, React 등을 활용한 프론트 개발도 가능합니다.
-- 클라우드(AWS), Docker 등을 이용한 아키텍팅 등 전반적인 웹 개발 영역을 경험했습니다.
-- 논리와 수학적 사고에 익숙하며, 새로운 지식이나 기술을 습득하는데 자신이 있습니다.
+- 약 9년간 백엔드 개발을 주력으로, 프론트엔드·모바일·인프라까지 아우르는 풀스택 개발자입니다.
+- NestJS(TypeScript) 기반의 백엔드 개발이 특기이며, Next.js, Flutter 등을 활용한 풀스택 개발 경험이 있습니다.
+- AWS 기반 클라우드 아키텍처 설계, Docker를 이용한 배포 환경 구축 등 전반적인 인프라 경험을 갖추고 있습니다.
+- 개발팀장으로서 팀 빌딩, 애자일 프로세스 도입, 기술 방향 설정 등 팀 리딩 경험이 있습니다.
 - 점진적으로 개선되며 지속가능한 개발 문화를 지향합니다.
 
 ## Introduce
@@ -21,29 +23,42 @@ Node.js로 개발하는 것을 좋아합니다. 주로 Javascript 및 Typescript
 
 ## Technical Experiences
 ### 선호 언어
-Javascript(Node.js), Typescript, Python, Bash, Rust, ...
+TypeScript, JavaScript(Node.js), Python, Bash, Rust, ...
 
 ### 마크업
 HTML, Markdown, XML
 
 ### 백엔드
-Nest.js, Express(Node.js), npm, nginx, Docker, docker-compose, AWS-CLI, Laravel(php), Shell script, composer, pip, ...
+NestJS, Express(Node.js), npm, nginx, Docker, docker-compose, AWS-CLI, Laravel(php), Shell script, composer, pip, ...
 
 ### 프론트엔드
-React.js, HTML, CSS, SCSS, Bootstrap, Material-ui, SemanticUI, JQuery, UIkit, ...
+Next.js, React.js, HTML, CSS, SCSS, Bootstrap, Material-ui, SemanticUI, JQuery, UIkit, ...
+
+### 모바일
+Flutter, iOS, Android Application
 
 ### 데이터베이스 및 ORM
-DB: MySQL, MariaDB, MongoDB, SQLite, PostgreSQL, Redis, Firebase 
-ORM: Sequelize, Laravel/queryBuilder, Eloquent ORM, SqlAlchemy, Alembic
+DB: MySQL, MariaDB, MongoDB, SQLite, PostgreSQL, Redis, Firebase
+ORM: TypeORM, Mongoose, Prisma, Sequelize, Eloquent ORM, SqlAlchemy, Alembic
 
-### 네트워크 및 크롤링
-AWS, puppeteer, BeautifulSoup, selenium, ...
+### 클라우드 및 인프라
+AWS(EC2, ECS, S3, Amplify, Lambda, CloudWatch 등), Docker, docker-compose, nginx, ...
 
 ### 형상관리, CI/CD 및 협업
-git, github, gitlab, github action, jenkins, ...
+git, GitHub, GitLab, GitHub Actions, Jenkins, ...
 
 ### 기타
-iOS, Android Application, Electron Windows Application, ...
+Electron Windows Application, ...
+
+## Education
+
+### 부경대학교
+- 학과: 물리학과
+- 졸업: 2016년
+
+## Certifications & Training
+
+- AWS Essential 교육 수료
 
 ## Work Experiences
 

@@ -23,7 +23,7 @@ pnpm 모노레포 구조로 앱(apps)과 공유 라이브러리(libs)를 분리 
 **기본 제공 기능**
 - 게시판·댓글 CRUD, 관리자 대시보드, 이메일 인증, 약관 버전 관리 등 서비스 공통 기능 포함
 
-URL: [https://github.com/centell/weaver2](https://github.com/centell/weaver2)
+URL: [https://github.com/rlidea/weaver2](https://github.com/rlidea/weaver2)
 
 ### [web framework] weaver (구버전)
     Node.js, Express.js, Sequelize, Passport
@@ -38,19 +38,9 @@ express.js 기반 웹 프레임워크 보일러플레이트. weaver2의 전신.
 - ESLint·Prettier 코드 품질 관리, mocha 기반 테스트 환경
 - 컨트롤러에서 바로 Swagger 문서화 작성
 
-URL: [https://github.com/centell/weaver2](https://github.com/centell/weaver2)
-
-### [창업 도전] BodyUS
-    Node.js, Express.js, Next.js, iOS(Swift), MariaDB, Docker
-
-헬스 트레이너가 고객을 관리하고 운동을 체계적으로 지원하는 피트니스 플랫폼. 2020~2021년 창업을 목표로 기획·개발.
-
-- 백엔드(Express.js), 웹 프론트엔드(Next.js), iOS 앱(Swift) 세 플랫폼을 1인 설계·개발
-- Sequelize ORM, Passport + JWT 인증, i18n 다국어 지원, Docker 개발 환경 구성
-- 트레이너의 고객 관리 및 운동 지원 워크플로우를 직접 기획하여 서비스 전반 설계
-- 예비 창업 패키지에 도전한 경험
-
-URL: [https://github.com/bodyus](https://github.com/bodyus) (Private)
+URL:
+- [https://github.com/RLidea/weaver-server](https://github.com/RLidea/weaver-server)
+- [https://github.com/RLidea/weaver-client](https://github.com/RLidea/weaver-client)
 
 ### [frontend library] create-element.js
     JavaScript, DOM
@@ -74,6 +64,18 @@ URL: [https://www.npmjs.com/package/grid-system.css](https://www.npmjs.com/packa
 버튜버(VTuber)가 자신의 노래 목록(세트리스트)을 정리하고, 시청자가 손쉽게 조회할 수 있는 웹 서비스.
 서비스 전반을 직접 기획·설계하고 NestJS 백엔드 / Next.js 프론트엔드 분리 구성으로 개발. 현재 개발 보류 중.
 
+### [창업 도전] BodyUS
+    Node.js, Express.js, Next.js, iOS(Swift), MariaDB, Docker
+
+헬스 트레이너가 고객을 관리하고 운동을 체계적으로 지원하는 피트니스 플랫폼. 2020~2021년 창업을 목표로 기획·개발.
+
+- 백엔드(Express.js), 웹 프론트엔드(Next.js), iOS 앱(Swift) 세 플랫폼을 1인 설계·개발
+- Sequelize ORM, Passport + JWT 인증, i18n 다국어 지원, Docker 개발 환경 구성
+- 트레이너의 고객 관리 및 운동 지원 워크플로우를 직접 기획하여 서비스 전반 설계
+- 예비 창업 패키지에 도전한 경험
+
+URL: [https://github.com/bodyus](https://github.com/bodyus) (Private)
+
 ### [Web Service] pokedex.info (개인 학습 프로젝트)
     Node.js, Vue.js, Docker, MariaDB, AWS
 
@@ -96,18 +98,18 @@ AI 에이전트(Claude 등)에 지속적인 기억·페르소나를 부여하는
 ### [Bot] watchdog — 텔레그램 모니터링 봇
     Node.js, TypeScript, Telegram Bot API, PM2
 
-- 서버 상태·알림을 텔레그램으로 수신하는 개인용 모니터링 봇
+- 서버 상태·알림 및 데일리 루틴을 텔레그램으로 수신하는 개인용 모니터링 봇
 - PM2 상시 구동, Telegram Bot API 푸시 알림 구현
 
-URL: [https://github.com/centell/watchdog](https://github.com/centell/watchdog)
+URL: [https://github.com/centell/watchdog-telegrambot](https://github.com/centell/watchdog-telegrambot) (Private)
 
-### [CLI Tool] book-translator — EPUB 번역 도구
+### [CLI Tool] trans-cli — 번역 CLI 도구
     TypeScript, DeepL API, Node.js
 
-- 일본어 EPUB 파일을 한국어로 번역하는 CLI 도구
-- DeepL API Free로 텍스트 추출·번역 후 EPUB으로 재조합
+- DeepL API를 사용하는 번역 CLI 도구
+- EPUB 번역 (병렬 처리 + 챕터 캐싱), 디렉토리 일괄 번역 (파일명·디렉토리명·VTT 자막 내용) 지원
 
-URL: [https://github.com/centell/book-translator](https://github.com/centell/book-translator)
+URL: [https://github.com/centell/trans-cli](https://github.com/centell/trans-cli)
 
 ## Game
 ### [Indie Game] WitchStella

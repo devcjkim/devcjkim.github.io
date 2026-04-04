@@ -23,7 +23,7 @@ pnpm 모노레포 구조로 앱(apps)과 공유 라이브러리(libs)를 분리 
 **기본 제공 기능**
 - 게시판·댓글 CRUD, 관리자 대시보드, 이메일 인증, 약관 버전 관리 등 서비스 공통 기능 포함
 
-URL: [https://github.com/centell/weaver2](https://github.com/centell/weaver2)
+URL: [https://github.com/rlidea/weaver2](https://github.com/rlidea/weaver2)
 
 ### [web framework] weaver (구버전)
     Node.js, Express.js, Sequelize, Passport
@@ -38,7 +38,10 @@ express.js 기반 웹 프레임워크 보일러플레이트. weaver2의 전신.
 - ESLint·Prettier 코드 품질 관리, mocha 기반 테스트 환경
 - 컨트롤러에서 바로 Swagger 문서화 작성
 
-URL: [https://github.com/centell/weaver2](https://github.com/centell/weaver2)
+URL:
+- [https://github.com/RLidea/weaver-server](https://github.com/RLidea/weaver-server)
+- [https://github.com/RLidea/weaver-client](https://github.com/RLidea/weaver-client)
+
 
 ### [창업 도전] BodyUS
     Node.js, Express.js, Next.js, iOS(Swift), MariaDB, Docker
@@ -99,7 +102,7 @@ AI 에이전트(Claude 등)에 지속적인 기억·페르소나를 부여하는
 - 서버 상태·알림을 텔레그램으로 수신하는 개인용 모니터링 봇
 - PM2 상시 구동, Telegram Bot API 푸시 알림 구현
 
-URL: [https://github.com/centell/watchdog](https://github.com/centell/watchdog)
+URL: [https://github.com/centell/watchdog-telegrambot](https://github.com/centell/watchdog-telegrambot) (Private)
 
 ### [CLI Tool] book-translator — EPUB 번역 도구
     TypeScript, DeepL API, Node.js

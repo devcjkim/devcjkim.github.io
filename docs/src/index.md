@@ -224,7 +224,8 @@ footer: devcjkim.github.io
         $ <span class="font-green">ls </span> <span class="font-white">PersonalProjects</span>
       </code>
       <code class="ls">
-        <span class="list"><a class="font-sky-blue" href="https://github.com/centell/weaver2">weaver2</a></span>
+        <span class="list"><a class="font-sky-blue" href="https://github.com/rlidea/weaver2">weaver2</a></span>
+        <span class="list"><a class="font-sky-blue" href="https://devcjkim.github.io/portfolio/personal.html#tools-bots">agent-persona-system</a></span>
         <span class="list"><a class="font-sky-blue" href="https://www.npmjs.com/package/create-element.js">create-element.js</a></span>
         <span class="list"><a class="font-sky-blue" href="https://www.npmjs.com/package/grid-system.css">grid-system.css</a></span>
       </code>

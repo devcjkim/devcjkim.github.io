@@ -1,27 +1,23 @@
 # 프리랜서
 
-## WhatDay (2021)
-    wordpress
-- 의류 쇼핑몰 사이트 개발
+## 알즐 (2018)
+    Laravel 5.4(PHP), MariaDB, Bootstrap, Docker, GitLab
 
-## 프란츠몰 (2020)
-    javascript, cafe24 shopping mall
-- 게시판 고도화 작업
-- 사이트 디자인 수정 작업
+- 알레르기 정보를 공유하는 커뮤니티 플랫폼 풀스택 개발
+- 식품·식당·장소 정보 게시판, 리뷰 및 댓글 시스템, 커뮤니티 게시판 등 다수의 도메인을 설계·구현
+- 마이페이지 (사용자 정보·환자 알레르기 정보·북마크·리뷰·댓글 관리) 및 관리자 패널 (회원·게시판·팝업·광고 관리) 포함
+- REST API 엔드포인트 (위치 검색, 회원가입, 북마크) 설계 및 구현
+- Docker 기반 개발 환경 구성, GitLab을 통한 형상관리, Cafe24 서버(PHP 7.0, MariaDB 10.0) 배포
 
 ## GoldAndSilver (2020)
-    javascript
-- 시세 API 연결 작업
-- 시세 정보 시각화 작업
+    JavaScript, Chart.js
+
+- 금·은 시세 API를 연동하여 실시간 시세를 시각화하는 웹 서비스 개발
+- 차트 기반 시세 조회 UI 구현으로 사용자 가독성 향상
 
 ## Kakaotalk Biz Message Sender (2020)
-    Node.js, React.js, Next.js, mySQL, kakao alimtalk
-- 회원들에게 카카오 알림톡을 보내는 웹 서비스
+    Node.js, Next.js, MySQL, 카카오 알림톡 API
 
-## STI (2020)
-    html, css, javascript, asp
-- 홈페이지 수정 작업
-
-## 알즐 (2018)
-    Laravel, mySQL, bootstrap
-- 알레르기 관련 정보를 공유하는 커뮤니티 사이트
+- 회원 대상 카카오 알림톡 발송을 위한 웹 서비스 풀스택 개발
+- 카카오 비즈 메시지 API 연동, 대상 회원 필터링 및 발송 이력 관리 기능 구현
+- Next.js 기반 프론트엔드와 Node.js 백엔드를 분리 구성

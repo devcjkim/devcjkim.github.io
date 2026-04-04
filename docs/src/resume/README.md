@@ -1,6 +1,6 @@
 # Resume
 
-김찬중 · 풀스택 개발자 (약 9년차)
+김찬중 · 풀스택 개발자 (약 10년차)
 
 - devcjkim@gmail.com
 - github.com/centell
@@ -9,59 +9,17 @@
 소프트웨어 개발 / 웹 풀스택 개발
 
 ## Summary
-- 약 9년간 백엔드 개발을 주력으로, 프론트엔드·모바일·인프라까지 아우르는 풀스택 개발자입니다.
+- 약 10년간 백엔드 개발을 주력으로, 프론트엔드·모바일·인프라까지 아우르는 풀스택 개발자입니다.
 - NestJS(TypeScript) 기반의 백엔드 개발이 특기이며, Next.js, Flutter 등을 활용한 풀스택 개발 경험이 있습니다.
 - AWS 기반 클라우드 아키텍처 설계, Docker를 이용한 배포 환경 구축 등 전반적인 인프라 경험을 갖추고 있습니다.
 - 개발팀장으로서 팀 빌딩, 애자일 프로세스 도입, 기술 방향 설정 등 팀 리딩 경험이 있습니다.
-- 점진적으로 개선되며 지속가능한 개발 문화를 지향합니다.
+- 붕괴하지 않는 팀이 가장 빠르게 성장한다고 믿습니다.
 
 ## Introduce
-TypeScript/Node.js를 주력으로 약 9년간 백엔드 개발을 해왔으며, 프론트엔드·모바일·인프라까지 직접 다루는 풀스택 개발자입니다.
-저는 개선을 좋아합니다. 모든것에 완벽한 상태란 없으며 계속해서 개선되고 나아질 수 있다고 생각합니다. 이것은 밖으로만 향하는 것이 아니라, 저에게도 마찬가지입니다. 제 단점과 아쉬운 점들에 대해 듣는것을 즐기며 감사히 여깁니다.
-커뮤니케이션을 잘 하는 편이라는 말을 많이 듣습니다. 팀원들의 의견을 듣고 현 상황에서 가능한 방법을 찾아 문제를 해결해나가는 편입니다. 시간/비용상 안 되는건 안된다고 인정하고, 그 상황에서도 가장 나은 결과를 찾는걸 즐깁니다.  
+TypeScript/Node.js를 주력으로 약 10년간 백엔드 개발을 해왔으며, 프론트엔드·모바일·인프라까지 직접 다루는 풀스택 개발자입니다.
+저는 개선을 좋아합니다. 모든 것에 완벽한 상태란 없으며 계속해서 개선되고 나아질 수 있다고 생각합니다. 이것은 밖으로만 향하는 것이 아니라, 저에게도 마찬가지입니다. 제 단점과 아쉬운 점들에 대해 듣는것을 즐기며 감사히 여깁니다.
+커뮤니케이션을 잘 하는 편이라는 말을 많이 듣습니다. 팀원들의 의견을 듣고 현 상황에서 가능한 방법을 찾아 문제를 해결해나가는 편입니다. 시간/비용상 안 되는 건 안 된다고 인정하고, 그 상황에서도 가장 나은 결과를 찾는걸 즐깁니다.  
 팀원 모두가 견딜 수 있는 페이스로 지속적이고 안정적으로 결과를 내는 개발 문화를 지향합니다. 개발팀의 운영에 있어서 가장 중요한 것은 팀이 붕괴하지 않는 것이며, 예측할 수 있는 결과물을 계속 내는 것이라고 생각합니다. 무너지지 않는 견고한 문화를 가진 개발팀과 함께할 때 회사도 개인도 가장 빠르게 성장할 수 있다고 생각합니다.  
-
-## Technical Experiences
-### 선호 언어
-TypeScript, JavaScript(Node.js), Python, Bash, Rust, ...
-
-### 마크업
-HTML, Markdown, XML
-
-### 백엔드
-NestJS, Express(Node.js), npm, nginx, Docker, docker-compose, AWS-CLI, Laravel(php), Shell script, composer, pip, ...
-
-### 프론트엔드
-Next.js, React.js, HTML, CSS, SCSS, Bootstrap, Material-ui, SemanticUI, JQuery, UIkit, ...
-
-### 모바일
-Flutter, iOS, Android Application
-
-### 데이터베이스 및 ORM
-DB: MySQL, MariaDB, MongoDB, SQLite, PostgreSQL, Redis, Firebase
-ORM: TypeORM, Mongoose, Prisma, Sequelize, Eloquent ORM, SqlAlchemy, Alembic
-
-### 클라우드 및 인프라
-AWS(EC2, ECS, S3, Amplify, Lambda, CloudWatch 등), Docker, docker-compose, nginx, ...
-
-### 형상관리, CI/CD 및 협업
-git, GitHub, GitLab, GitHub Actions, Jenkins, ...
-
-### AI / LLM
-Claude API, MCP(Model Context Protocol), pgvector(벡터 DB), Prompt Engineering, LLM 연동 서비스 개발
-
-### 기타
-Electron Windows Application, ...
-
-## Education
-
-### 부경대학교
-- 학과: 물리학과
-- 졸업: 2016년
-
-## Certifications & Training
-
-- AWS Essential 교육 수료
 
 ## Work Experiences
 
@@ -77,6 +35,7 @@ Electron Windows Application, ...
   - 부산 클라우드 혁신센터, 베스핀글로벌 MSP 계약 등 외부 파트너십을 구축했습니다.
   - 영장류 연구소용 윈도우 블루투스 연동 프로그램(호원소프트)을 개발하고 납품했습니다.
   - 주간 스크럼 도입, 금요인사이트(일요일에 1-2시간 정도 시간을 내어 직원들의 역량 강화를 위한 교육 진행) 52회 이상 운영 등 개발팀 문화 및 역량 강화를 주도했습니다.
+  - 2023년 직원 투표를 통해 최고 멤버로 선정되었습니다. <details><summary>인증 사진 보기</summary><img src="/images/award-best-member-2023.jpeg" alt="2023 와이펫 최고 멤버" style="max-width:300px;margin-top:8px;"></details>
 - 사용기술: NestJS(TypeScript), Next.js, Flutter, AWS(ECS, Amplify, S3, CloudWatch), MongoDB, Redis, SQLite, GitHub Actions 등
 
 ### 월간해킹 (2021. 08. - 2023. 05)
@@ -129,7 +88,7 @@ Electron Windows Application, ...
 - 담당업무:
   - 메인 개발자로서 전반적인 사이트 기능 추가 및 유지보수를 담당했습니다.
   - Laravel 기반 홈페이지 유지보수 및 기능추가를 진행했습니다.
-  - AWS Essential 교육을 들을 기회를 얻어, 클라우드 기술을 기존 플랫폼에 적용하였습니다.
+  - AWS Essential 교육을 이수하고, 습득한 클라우드 기술을 기존 플랫폼에 직접 적용했습니다.
   - 기존 사이트와 연동되는 iOS 앱 개발을 진행했습니다.
   - Node.js 기반 채팅 시스템을 개발했습니다.
 - 사용기술: Node.js, Laravel(php), AWS(EC2, S3, RDS, ELB, VPC 등), javascript, css, mySQL, git 등
@@ -143,3 +102,45 @@ Electron Windows Application, ...
   - 사용자 및 업체 사용 경향 통계 분석을 진행했습니다.
   - 기존 고객 데이터를 시각화하는 작업을 진행했습니다.
 - 사용기술: Laravel(PHP), mySQL, javascript, git, postman 등
+
+## Technical Experiences
+### 선호 언어
+TypeScript, JavaScript(Node.js), Python, Bash, Rust, ...
+
+### 마크업
+HTML, Markdown, XML
+
+### 백엔드
+NestJS, Express(Node.js), npm, nginx, Docker, docker-compose, AWS-CLI, Laravel(php), Shell script, composer, pip, ...
+
+### 프론트엔드
+Next.js, React.js, HTML, CSS, SCSS, Bootstrap, Material-ui, SemanticUI, JQuery, UIkit, ...
+
+### 모바일
+Flutter, iOS, Android Application
+
+### 데이터베이스 및 ORM
+DB: MySQL, MariaDB, MongoDB, SQLite, PostgreSQL, Redis, Firebase
+ORM: TypeORM, Mongoose, Prisma, Sequelize, Eloquent ORM, SqlAlchemy, Alembic
+
+### 클라우드 및 인프라
+AWS(EC2, ECS, S3, Amplify, Lambda, CloudWatch 등), Docker, docker-compose, nginx, ...
+
+### 형상관리, CI/CD 및 협업
+git, GitHub, GitLab, GitHub Actions, Jenkins, ...
+
+### AI / LLM
+Claude API, MCP(Model Context Protocol), pgvector(벡터 DB), Prompt Engineering, LLM 연동 서비스 개발
+
+### 기타
+Electron Windows Application, ...
+
+## Education
+
+### 부경대학교
+- 학과: 물리학과
+- 졸업: 2016년
+
+## Certifications & Training
+
+- AWS Essential 교육 수료

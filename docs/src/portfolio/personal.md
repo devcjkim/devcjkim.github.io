@@ -104,13 +104,13 @@ AI 에이전트(Claude 등)에 지속적인 기억·페르소나를 부여하는
 
 URL: [https://github.com/centell/watchdog-telegrambot](https://github.com/centell/watchdog-telegrambot) (Private)
 
-### [CLI Tool] book-translator — EPUB 번역 도구
+### [CLI Tool] trans-cli — 번역 CLI 도구
     TypeScript, DeepL API, Node.js
 
-- 일본어 EPUB 파일을 한국어로 번역하는 CLI 도구
-- DeepL API Free로 텍스트 추출·번역 후 EPUB으로 재조합
+- DeepL API를 사용하는 번역 CLI 도구
+- EPUB 번역 (병렬 처리 + 챕터 캐싱), 디렉토리 일괄 번역 (파일명·디렉토리명·VTT 자막 내용) 지원
 
-URL: [https://github.com/centell/book-translator](https://github.com/centell/book-translator)
+URL: [https://github.com/centell/trans-cli](https://github.com/centell/trans-cli)
 
 ## Game
 ### [Indie Game] WitchStella

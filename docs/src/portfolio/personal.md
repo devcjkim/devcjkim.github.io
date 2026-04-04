@@ -4,7 +4,7 @@
 ### [backend framework] weaver2
     NestJS(TypeScript), PostgreSQL, Prisma, JWT, pnpm 모노레포
 
-- NestJS 기반 백엔드 베이스 프레임워크. 개인 프로젝트 및 사내 프로젝트의 시작점으로 활용
+- NestJS 기반 백엔드 베이스 프레임워크. 신규 프로젝트의 시작점으로 활용
 - pnpm 모노레포 구조로 다수의 도메인 앱과 공유 라이브러리(core-file, core-logger, core-security, core-message, core-board 등)를 함께 관리
 - Prisma ORM 기반 DB 마이그레이션, JWT 인증(AccessToken/RefreshToken), 환경변수 관리 등 보일러플레이트 구축
 - 반복적인 프로젝트 셋업 비용을 줄이기 위해 직접 설계 및 지속 개선 중
@@ -53,6 +53,14 @@ URL: [https://www.npmjs.com/package/create-element.js](https://www.npmjs.com/pac
 URL: [https://www.npmjs.com/package/grid-system.css](https://www.npmjs.com/package/grid-system.css)
 
 ## Web
+### [Web Service] manya — 버튜버 노래 목록 관리 서비스
+    NestJS(TypeScript), Next.js, MySQL
+
+- 버튜버(VTuber)가 자신의 노래 목록(세트리스트)을 정리하고, 시청자가 손쉽게 조회할 수 있는 웹 서비스
+- 버튜버 전용 노래책 관리, 시청자 공개 페이지 등 서비스 전반을 직접 기획·설계
+- NestJS 백엔드와 Next.js 프론트엔드를 분리 구성하여 개발
+- 개인 사이드 프로젝트로 기획 및 개발 진행, 현재 개발 보류 중
+
 ### [Web Service] pokedex.info (개인 학습 프로젝트)
     node.js, Vue.js, Docker, mariaDB, AWS, git
 
@@ -65,6 +73,14 @@ URL: [https://www.npmjs.com/package/grid-system.css](https://www.npmjs.com/packa
 - Sequelize를 이용한 테이블 스키마 버전관리 및 ORM 쿼리
 
 ## Tools & Bots
+### [MCP Server] agent-persona-system — AI 페르소나 기억 관리 시스템
+    TypeScript, Node.js, Prisma, PostgreSQL(pgvector), MCP SDK
+
+- AI 에이전트(Claude 등)에 지속적인 기억·페르소나·감정을 부여하는 MCP 서버
+- pgvector 기반 의미 검색으로 관련 기억을 컨텍스트에 자동 로드
+- 세션 관리, 중요도 기반 기억 분류, 기억 간 연결 관계 등 구현
+- Claude Code에 MCP 서버로 연동하여 실제 개인 워크플로우에 운용 중
+
 ### [Bot] watchdog — 텔레그램 모니터링 봇
     Node.js, TypeScript, Telegram Bot API, PM2
 

@@ -7,14 +7,14 @@ devcjkim@gmail.com
 소프트웨어 개발 / 웹 개발
 
 ## Summary
-- 주로 서버 및 백앤드 개발을 담당하며 프론트 개발까지 가능한 풀스택 지향 개발자입니다.
-- Node.js Express 기반의 백앤드 개발이 특기이며, React 등을 활용한 프론트 개발도 가능합니다.
+- 주로 서버 및 백엔드 개발을 담당하며 프론트 개발까지 가능한 풀스택 지향 개발자입니다.
+- Node.js Express 기반의 백엔드 개발이 특기이며, React 등을 활용한 프론트 개발도 가능합니다.
 - 클라우드(AWS), Docker 등을 이용한 아키텍팅 등 전반적인 웹 개발 영역을 경험했습니다.
 - 논리와 수학적 사고에 익숙하며, 새로운 지식이나 기술을 습득하는데 자신이 있습니다.
 - 점진적으로 개선되며 지속가능한 개발 문화를 지향합니다.
 
 ## Introduce
-Node.js로 개발하는 것을 좋아합니다. 주로 Javascript 및 Typescript 로 백앤드 개발을 했습니다.
+Node.js로 개발하는 것을 좋아합니다. 주로 Javascript 및 Typescript 로 백엔드 개발을 했습니다.
 저는 개선을 좋아합니다. 모든것에 완벽한 상태란 없으며 계속해서 개선되고 나아질 수 있다고 생각합니다. 이것은 밖으로만 향하는 것이 아니라, 저에게도 마찬가지입니다. 제 단점과 아쉬운 점들에 대해 듣는것을 즐기며 감사히 여깁니다.
 커뮤니케이션을 잘 하는 편이라는 말을 많이 듣습니다. 팀원들의 의견을 듣고 현 상황에서 가능한 방법을 찾아 문제를 해결해나가는 편입니다. 시간/비용상 안 되는건 안된다고 인정하고, 그 상황에서도 가장 나은 결과를 찾는걸 즐깁니다.  
 팀원 모두가 견딜 수 있는 페이스로 지속적이고 안정적으로 결과를 내는 개발 문화를 지향합니다. 개발팀의 운영에 있어서 가장 중요한 것은 팀이 붕괴하지 않는 것이며, 예측할 수 있는 결과물을 계속 내는 것이라고 생각합니다. 무너지지 않는 견고한 문화를 가진 개발팀과 함께할 때 회사도 개인도 가장 빠르게 성장할 수 있다고 생각합니다.  
@@ -29,7 +29,7 @@ HTML, Markdown, XML
 ### 백엔드
 Nest.js, Express(Node.js), npm, nginx, Docker, docker-compose, AWS-CLI, Laravel(php), Shell script, composer, pip, ...
 
-### 프론트앤드
+### 프론트엔드
 React.js, HTML, CSS, SCSS, Bootstrap, Material-ui, SemanticUI, JQuery, UIkit, ...
 
 ### 데이터베이스 및 ORM
@@ -46,7 +46,22 @@ git, github, gitlab, github action, jenkins, ...
 iOS, Android Application, Electron Windows Application, ...
 
 ## Work Experiences
-### 월간해킹 (2021. 08. - 현재)
+
+### 와이펫 (2023. 06. - 현재)
+- 포지션: 개발팀장
+- 담당업무:
+  - NestJS(TypeScript) 기반 백엔드 모노레포를 설계하고, 메인 서비스·펫스테이션 등 다수의 도메인 앱과 공유 라이브러리 구조를 구축했습니다.
+  - 반려동물 체온 측정·관리 API를 개발하고, 개체별 평소체온 산출 알고리즘을 연구·구현했습니다 (특허 관련 순서도 작성 포함).
+  - 블루투스 스캐너와의 통신 프로토콜(바이트 레벨 데이터 해석)을 구현하고, 앱과의 연동 모듈 및 테스트 코드를 작성했습니다.
+  - 쿠폰 시스템, 이벤트 모듈, QR 기반 도장깨기 시스템 등 서비스 핵심 기능을 개발했습니다.
+  - 펫스테이션 오프라인 매장 구축을 주도했으며, POS·키오스크·무인주문 시스템 도입 및 결제 연동(페이히어, 포스모스)을 담당했습니다.
+  - AWS 크레딧 $5,750 확보 및 불필요한 인프라 비용을 정리해 클라우드 운영 비용을 최적화했습니다.
+  - 부산 클라우드 혁신센터, 베스핀글로벌 MSP 계약 등 외부 파트너십을 구축했습니다.
+  - 영장류 연구소용 윈도우 블루투스 연동 프로그램(호원소프트)을 개발하고 납품했습니다.
+  - 주간 스크럼 도입, 금요인사이트(일요일에 1-2시간 정도 시간을 내어 직원들의 역량 강화를 위한 교육 진행) 52회 이상 운영 등 개발팀 문화 및 역량 강화를 주도했습니다.
+- 사용기술: NestJS(TypeScript), Next.js, Flutter, AWS(ECS, Amplify, S3, CloudWatch), MongoDB, Redis, SQLite, GitHub Actions 등
+
+### 월간해킹 (2021. 08. - 2023. 05)
 - 포지션: 백엔드 개발자
 - 담당업무:
   - Nest.js(Typescript) 기반 REST API 신규 프로젝트 개발을 진행했습니다.
@@ -74,7 +89,7 @@ iOS, Android Application, Electron Windows Application, ...
   - 기존 프로젝트에 보안 취약점 (SSL, CORS, CSRF)등의 작업을 하였습니다.
   - 기존 DB의 무결성이 훼손되어있어, 마이그레이션을 진행했습니다.
   - 사내 위키문화를 독려하여 개발 문서가 정리되도록 했습니다.
-  - 기존 아키텍쳐에 비효율적인 부분들이 있어 개선작업을 진행하였고, 월 30여 만원 정도 나가던 서버 비용을 15만원 이하로 낮췄습니다.
+  - 기존 아키텍처에 비효율적인 부분들이 있어 개선작업을 진행하였고, 월 30여 만원 정도 나가던 서버 비용을 15만원 이하로 낮췄습니다.
 - 사용기술: Express(Node.js), React.js, AWS(EC2, Lambda, API gateway, Route 53 등), Flask(python), Zapier 등
 
 ### 웨저 (2018. 01. - 2019. 06.)
@@ -85,7 +100,7 @@ iOS, Android Application, Electron Windows Application, ...
   - Vue.js 기반 홈페이지를 개발했습니다.
   - 바닐라 javascript 로 동적 화면을 개발했습니다.
   - 오래된 서버에 있던 구형 php 프로젝트들을 AWS로 마이그레이션했습니다.
-  - 협업 도구(Trello, Slack, google docs)들을 팀에게 알리고 사용 문화를 정착시키기 위해 힘써 
+  - 협업 도구(Trello, Slack, google docs)들을 팀에게 알리고 사용 문화를 정착시키기 위해 힘썼습니다.
   - iOS, Android 등의 모바일 어플 개발 및 유지보수에 앱 개발자 포지션으로 참여했습니다.
 - 사용기술: Node.js, Laravel(PHP), AWS(EC2, RDS, S3, SES, VPC), javascript, docker, Python, Vue.js, mariaDB, bash 등
 

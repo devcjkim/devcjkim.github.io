@@ -28,8 +28,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
-          personal_token: ${{ secrets.ACCESS_TOKEN }}
-          external_repository: devcjkim/devcjkim.github.io
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh_pages
           publish_dir: docs/src/.vuepress/dist/
           commit_message: Auto deploy from GitHub Actions

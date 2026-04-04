@@ -42,19 +42,6 @@ URL:
 - [https://github.com/RLidea/weaver-server](https://github.com/RLidea/weaver-server)
 - [https://github.com/RLidea/weaver-client](https://github.com/RLidea/weaver-client)
 
-
-### [창업 도전] BodyUS
-    Node.js, Express.js, Next.js, iOS(Swift), MariaDB, Docker
-
-헬스 트레이너가 고객을 관리하고 운동을 체계적으로 지원하는 피트니스 플랫폼. 2020~2021년 창업을 목표로 기획·개발.
-
-- 백엔드(Express.js), 웹 프론트엔드(Next.js), iOS 앱(Swift) 세 플랫폼을 1인 설계·개발
-- Sequelize ORM, Passport + JWT 인증, i18n 다국어 지원, Docker 개발 환경 구성
-- 트레이너의 고객 관리 및 운동 지원 워크플로우를 직접 기획하여 서비스 전반 설계
-- 예비 창업 패키지에 도전한 경험
-
-URL: [https://github.com/bodyus](https://github.com/bodyus) (Private)
-
 ### [frontend library] create-element.js
     JavaScript, DOM
 
@@ -76,6 +63,18 @@ URL: [https://www.npmjs.com/package/grid-system.css](https://www.npmjs.com/packa
 
 버튜버(VTuber)가 자신의 노래 목록(세트리스트)을 정리하고, 시청자가 손쉽게 조회할 수 있는 웹 서비스.
 서비스 전반을 직접 기획·설계하고 NestJS 백엔드 / Next.js 프론트엔드 분리 구성으로 개발. 현재 개발 보류 중.
+
+### [창업 도전] BodyUS
+    Node.js, Express.js, Next.js, iOS(Swift), MariaDB, Docker
+
+헬스 트레이너가 고객을 관리하고 운동을 체계적으로 지원하는 피트니스 플랫폼. 2020~2021년 창업을 목표로 기획·개발.
+
+- 백엔드(Express.js), 웹 프론트엔드(Next.js), iOS 앱(Swift) 세 플랫폼을 1인 설계·개발
+- Sequelize ORM, Passport + JWT 인증, i18n 다국어 지원, Docker 개발 환경 구성
+- 트레이너의 고객 관리 및 운동 지원 워크플로우를 직접 기획하여 서비스 전반 설계
+- 예비 창업 패키지에 도전한 경험
+
+URL: [https://github.com/bodyus](https://github.com/bodyus) (Private)
 
 ### [Web Service] pokedex.info (개인 학습 프로젝트)
     Node.js, Vue.js, Docker, MariaDB, AWS
@@ -99,7 +98,7 @@ AI 에이전트(Claude 등)에 지속적인 기억·페르소나를 부여하는
 ### [Bot] watchdog — 텔레그램 모니터링 봇
     Node.js, TypeScript, Telegram Bot API, PM2
 
-- 서버 상태·알림을 텔레그램으로 수신하는 개인용 모니터링 봇
+- 서버 상태·알림 및 데일리 루틴을 텔레그램으로 수신하는 개인용 모니터링 봇
 - PM2 상시 구동, Telegram Bot API 푸시 알림 구현
 
 URL: [https://github.com/centell/watchdog-telegrambot](https://github.com/centell/watchdog-telegrambot) (Private)

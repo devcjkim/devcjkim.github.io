@@ -87,13 +87,25 @@ URL: [https://github.com/bodyus](https://github.com/bodyus) (Private)
 
 ## Tools & Bots
 ### [MCP Server] agent-persona-system — AI 페르소나 기억 관리 시스템
-    TypeScript, Node.js, Prisma, PostgreSQL(pgvector), MCP SDK
+    TypeScript, Node.js, Prisma, PostgreSQL(pgvector), MCP SDK, Gemini Embedding API
 
-AI 에이전트(Claude 등)에 지속적인 기억·페르소나를 부여하는 MCP 서버. 실제 개인 워크플로우에 운용 중.
+AI 에이전트(Claude 등)에 지속적인 기억과 페르소나를 부여하는 MCP 서버. 실제 개인 워크플로우에 운용 중.
+RAG(Retrieval-Augmented Generation) 패턴을 설계·구현하여 에이전트가 대화 컨텍스트에 맞는 기억을 자동으로 참조하도록 구성.
 
-- pgvector 기반 의미 검색으로 관련 기억을 컨텍스트에 자동 로드
-- 세션 관리, 중요도 기반 기억 분류, 기억 간 연결 관계 구현
-- Claude Code MCP 서버로 연동하여 페르소나 상태 지속 유지
+**RAG 파이프라인**
+- 기억 저장 시 Gemini embedding-001(768차원)로 텍스트를 벡터로 변환하여 pgvector에 저장
+- 검색 시 쿼리를 동일하게 임베딩 후 코사인 유사도(`<=>` 연산자)로 의미적으로 유사한 기억 검색
+- 벡터 유사도 검색과 메타데이터 필터링(중요도 1–5, 카테고리, 날짜)을 조합하여 검색 정밀도 향상
+
+**기억 관리**
+- 세션 시작 시 `loadOn: session_start` 메타데이터 기반으로 필수 기억 자동 로드
+- 세션 중단·복구 기능: INTERRUPTED 세션 감지 후 이전 작업 내용 요약 안내
+- 중요도 기반 기억 분류(1–5레벨), 기억 간 연결 관계(링크) 구현
+
+**시스템 구성**
+- MCP SDK 기반 서버 직접 구현 (단순 연동이 아닌 서버 개발)
+- Prisma + PostgreSQL 기반 데이터 모델 설계
+- Claude Code에 MCP 서버로 연동하여 페르소나 상태 지속 유지
 
 ### [Bot] watchdog — 텔레그램 모니터링 봇
     Node.js, TypeScript, Telegram Bot API, PM2

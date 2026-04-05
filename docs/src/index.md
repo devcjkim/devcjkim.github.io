@@ -6,9 +6,6 @@ footer: devcjkim.github.io
 ---
 
 <style>
-.terminal {
-  @import "./app.css";
-}
 @media only screen and (max-width: 768px) {
   .terminal .title-desktop {
     display: none;
@@ -175,7 +172,7 @@ footer: devcjkim.github.io
     <nav>
       <ul class="grid-row">
         <li class="grid-6 selected right-border">Profile</li>
-        <li class="grid-6"><a href="https://github.com/centell" rel="author" target="_blank">Github</a></li>
+        <li class="grid-6"><a href="https://github.com/centell" rel="author" target="_blank">Github 🔗</a></li>
       </ul>   
     </nav>
     <main>
@@ -238,22 +235,22 @@ footer: devcjkim.github.io
 </div>
 
 <div style="display: flex; justify-content: center;">
-  주로 서버 및 백엔드 개발을 담당하며 프론트 개발까지 가능한 풀스택 지향 개발자입니다.<br/>
+  서버 및 백엔드 개발을 담당하며 프론트 개발까지 가능한 풀스택 지향 개발자입니다.<br/>
   클라우드, Docker 등을 이용한 아키텍팅 등 전반적인 웹 개발 영역을 경험했습니다.
 </div>
 
 <div class="features">
   <div class="feature">
-    <a href="/resume"><h2>Resume</h2></a>
     <a href="/resume">
+      <h2>Resume</h2>
       <p>
         저에 대해 소개합니다.
       </p>
     </a>
   </div>
 <div class="feature">
-    <a href="/portfolio"><h2>Portfolio</h2></a>
     <a href="/portfolio">
+      <h2>Portfolio</h2>
       <p>
         제가 경험한 프로젝트들을 소개합니다.
       </p>

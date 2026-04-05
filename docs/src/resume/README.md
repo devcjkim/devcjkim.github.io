@@ -13,6 +13,7 @@
 - NestJS(TypeScript) 기반의 백엔드 개발이 특기이며, Next.js, Flutter 등을 활용한 풀스택 개발 경험이 있습니다.
 - AWS 기반 클라우드 아키텍처 설계, Docker를 이용한 배포 환경 구축 등 전반적인 인프라 경험을 갖추고 있습니다.
 - 개발팀장으로서 팀 빌딩, 애자일 프로세스 도입, 기술 방향 설정 등 팀 리딩 경험이 있습니다.
+- RAG 파이프라인 설계·구현, MCP 서버 직접 개발 등 LLM 기반 AI 시스템 개발 경험이 있습니다.
 - 붕괴하지 않는 팀이 가장 빠르게 성장한다고 믿습니다.
 
 ## Introduce
@@ -35,7 +36,7 @@ TypeScript/Node.js를 주력으로 약 10년간 백엔드 개발을 해왔으며
   - 부산 클라우드 혁신센터, 베스핀글로벌 MSP 계약 등 외부 파트너십을 구축했습니다.
   - 영장류 연구소용 윈도우 블루투스 연동 프로그램(호원소프트)을 개발하고 납품했습니다.
   - 주간 스크럼 도입, 금요인사이트(일요일에 1-2시간 정도 시간을 내어 직원들의 역량 강화를 위한 교육 진행) 52회 이상 운영 등 개발팀 문화 및 역량 강화를 주도했습니다.
-  - 2023년 직원 투표를 통해 최고 멤버로 선정되었습니다. <details><summary>인증 사진 보기</summary><img src="/images/award-best-member-2023.jpeg" alt="2023 와이펫 최고 멤버" style="max-width:300px;margin-top:8px;"></details>
+  - 2023년 직원 투표를 통해 최고 멤버로 선정되었습니다. <details><summary>사진 보기</summary><img src="/images/award-best-member-2023.jpeg" alt="2023 와이펫 최고 멤버" style="max-width:300px;margin-top:8px;"></details>
 - 사용기술: NestJS(TypeScript), Next.js, Flutter, AWS(ECS, Amplify, S3, CloudWatch), MongoDB, Redis, SQLite, GitHub Actions 등
 
 ### 월간해킹 (2021. 08. - 2023. 05)
@@ -130,7 +131,11 @@ AWS(EC2, ECS, S3, Amplify, Lambda, CloudWatch 등), Docker, docker-compose, ngin
 git, GitHub, GitLab, GitHub Actions, Jenkins, ...
 
 ### AI / LLM
-Claude API, MCP(Model Context Protocol), pgvector(벡터 DB), Prompt Engineering, LLM 연동 서비스 개발
+Claude API, MCP(Model Context Protocol), RAG(Retrieval-Augmented Generation), pgvector, Gemini Embedding API, Prompt Engineering
+
+- RAG 파이프라인 설계·구현: 텍스트 임베딩 생성(Gemini embedding-001, 768차원) → pgvector 저장 → 코사인 유사도 검색 → LLM 컨텍스트 주입
+- MCP 서버 개발: 단순 연동이 아닌 서버 구현 (TypeScript, MCP SDK)
+- 벡터 유사도 검색과 메타데이터 필터링(중요도·카테고리·날짜)을 조합한 에이전트 지향 검색 시스템 구현
 
 ### 기타
 Electron Windows Application, ...

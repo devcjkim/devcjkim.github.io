@@ -32,6 +32,7 @@ footer: devcjkim.github.io
   box-shadow: 0 0 24px rgba(0, 0, 0, 0.5);
   border-radius: 6px;
   overflow: hidden;
+  margin-bottom: 24px;
 }
 .terminal header {
   border-bottom: 1px solid #4D4C4D;
@@ -78,10 +79,11 @@ footer: devcjkim.github.io
   background-color: #252929;
   color: #727674;
   text-align: center;
+  padding: 5px 0;
 }
 .terminal nav ul li a {
   display: block;
-  padding: 5px 0;
+  padding: 0;
   color: #727674;
 }
 .terminal nav ul li:hover {
@@ -222,6 +224,9 @@ footer: devcjkim.github.io
       <!--personal projects-->
       <code>
         <span class="font-sky-blue">devcjkim.github.io</span>
+        <span class="font-blue">
+          git:(<span class="font-red">main</span>)
+        </span>
         $ <span class="font-green">ls </span> <span class="font-white">PersonalProjects</span>
       </code>
       <code class="ls">
@@ -232,7 +237,11 @@ footer: devcjkim.github.io
       </code>
       <!--end-->
       <code>
-        <span class="font-sky-blue">devcjkim.github.io</span> $
+        <span class="font-sky-blue">devcjkim.github.io</span>
+        <span class="font-blue">
+          git:(<span class="font-red">main</span>)
+        </span>
+        $
       </code>
     </main>
   </section>

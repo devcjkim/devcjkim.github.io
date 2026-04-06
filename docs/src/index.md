@@ -247,7 +247,7 @@ footer: devcjkim.github.io
   </section>
 </div>
 
-<div style="display: flex; justify-content: center; margin-top: 2.5rem;">
+<div style="display: flex; justify-content: center; margin-top: 1.25rem; line-height: 1.4;">
   백엔드 중심의 풀스택 개발자로 서버, 인프라 및 프론트엔드까지 웹 개발 전 영역을 다룹니다.<br/>
   팀원과 함께 목표를 세우고, 완성까지 책임지며 이끈 경험이 있습니다.<br/>
   다양한 프로덕트의 기획에 참여했으며 개발자의 시각으로 실현 가능한 서비스를 설계합니다.<br/><br/>

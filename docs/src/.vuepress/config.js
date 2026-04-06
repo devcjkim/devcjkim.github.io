@@ -57,9 +57,9 @@ module.exports = {
           title: "포트폴리오",
           collapsable: false,
           children: [
-            '/portfolio/personal',
             '/portfolio/company',
             '/portfolio/freelancer',
+            '/portfolio/personal',
           ]
         },
       ],

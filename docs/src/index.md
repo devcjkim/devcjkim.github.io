@@ -247,9 +247,11 @@ footer: devcjkim.github.io
   </section>
 </div>
 
-<div style="display: flex; justify-content: center;">
-  서버 및 백엔드 개발을 담당하며 프론트 개발까지 가능한 풀스택 지향 개발자입니다.<br/>
-  클라우드, Docker 등을 이용한 아키텍팅 등 전반적인 웹 개발 영역을 경험했습니다.
+<div style="display: flex; justify-content: center; margin-top: 2.5rem;">
+  백엔드 중심의 풀스택 개발자로 서버, 인프라 및 프론트엔드까지 웹 개발 전 영역을 다룹니다.<br/>
+  팀원과 함께 목표를 세우고, 완성까지 책임지며 이끈 경험이 있습니다.<br/>
+  다양한 프로덕트의 기획에 참여했으며 개발자의 시각으로 실현 가능한 서비스를 설계합니다.<br/><br/>
+  기술, 협업, 기획 — 제품의 전 과정에 걸쳐 기여할 수 있는 개발자입니다.
 </div>
 
 <div class="features">
@@ -257,7 +259,7 @@ footer: devcjkim.github.io
     <a href="/resume">
       <h2>Resume</h2>
       <p>
-        저에 대해 소개합니다.
+        저를 소개합니다.
       </p>
     </a>
   </div>

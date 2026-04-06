@@ -12,11 +12,11 @@ pnpm 모노레포 구조로 앱(apps)과 공유 라이브러리(libs)를 분리 
 - common, pagination, prisma, email, upload 등 공유 라이브러리 모듈화
 
 **인증 & 보안**
-- OAuth 소셜 로그인 (Google, Kakao, Naver) — passport 없이 native fetch 방식으로 직접 구현, CSRF state 검증 포함
+- **OAuth 소셜 로그인** (Google, Kakao, Naver) — passport 없이 native fetch 방식으로 직접 구현, CSRF state 검증 포함
 - JWT 쿠키 기반 인증 (AccessToken / RefreshToken), 역할 기반 접근 제어 (USER / ADMIN / MODERATOR / DEVELOPER), 레이트 리미팅
 
 **인프라 & 개발 환경**
-- Kubernetes readiness / liveness 헬스체크 엔드포인트 (DB 연결·메모리·디스크 체크) 및 모니터링 대시보드 내장
+- **Kubernetes** readiness / liveness 헬스체크 엔드포인트 (DB 연결·메모리·디스크 체크) 및 모니터링 대시보드 내장
 - Docker / docker-compose 기반 개발·프로덕션 환경 분리
 - Swagger/OpenAPI 자동 문서화, Husky 커밋 전 lint 검사, Jest E2E 테스트 환경
 
@@ -90,7 +90,7 @@ URL: [https://github.com/bodyus](https://github.com/bodyus) (Private)
     TypeScript, Node.js, Prisma, PostgreSQL(pgvector), MCP SDK, Gemini Embedding API
 
 AI 에이전트(Claude 등)에 지속적인 기억과 페르소나를 부여하는 MCP 서버. 실제 개인 워크플로우에 운용 중.
-RAG(Retrieval-Augmented Generation) 패턴을 설계·구현하여 에이전트가 대화 컨텍스트에 맞는 기억을 자동으로 참조하도록 구성.
+**RAG(Retrieval-Augmented Generation)** 패턴을 설계·구현하여 에이전트가 대화 컨텍스트에 맞는 기억을 자동으로 참조하도록 구성.
 
 **RAG 파이프라인**
 - 기억 저장 시 Gemini embedding-001(768차원)로 텍스트를 벡터로 변환하여 pgvector에 저장

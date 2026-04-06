@@ -36,7 +36,7 @@ TypeScript/Node.js를 주력으로 약 10년간 백엔드 개발을 해왔으며
   - AWS 크레딧 **$5,750** 확보 및 불필요한 인프라 비용을 정리해 클라우드 운영 비용을 최적화했습니다.
   - 부산 클라우드 혁신센터, 베스핀글로벌 MSP 계약 등 외부 파트너십을 구축했습니다.
   - 영장류 연구소용 윈도우 블루투스 연동 프로그램(호원소프트)을 개발하고 납품했습니다.
-  - 주간 스크럼 도입, 금요인사이트(일요일에 1-2시간 정도 시간을 내어 직원들의 역량 강화를 위한 교육 진행) **52회 이상** 운영 등 개발팀 문화 및 역량 강화를 주도했습니다.
+  - 주간 스크럼 도입, OKR 기반 분기별 성과 관리, 금요인사이트(일요일에 1-2시간 정도 시간을 내어 직원들의 역량 강화를 위한 교육 진행) **52회 이상** 운영 등 개발팀 문화 및 역량 강화를 주도했습니다.
   - **2023년 직원 투표를 통해 최고 멤버로 선정**되었습니다. <details><summary>사진 보기</summary><img src="/images/award-best-member-2023.jpeg" alt="2023 와이펫 최고 멤버" style="max-width:300px;margin-top:8px;"></details>
 - 사용기술: NestJS(TypeScript), Next.js, Flutter, AWS(ECS, Amplify, S3, CloudWatch), MongoDB, Redis, SQLite, GitHub Actions 등
 

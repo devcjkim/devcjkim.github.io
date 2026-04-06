@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'devcjkim',
+  title: 'Chanjoong Kim',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -32,6 +32,7 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
+    search: false,
     nav: [
       {
         text: '소개',

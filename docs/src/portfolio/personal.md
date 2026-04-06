@@ -5,6 +5,8 @@
     NestJS(TypeScript), PostgreSQL, Prisma, pnpm 모노레포, Docker
 
 신규 서비스의 시작점으로 활용하기 위해 직접 설계·구축한 종합 백엔드 보일러플레이트.
+Express.js는 자유도가 높은 대신 프로젝트 규모가 커질수록 구조를 일관되게 유지하기 위한 별도의 규칙/컨벤션을 직접 정의하고 관리해야 하는 부담 있음.
+반면 NestJS는 모듈 기반 아키텍처와 DI(Dependency Injection), 계층 구조를 프레임워크 레벨에서 제공하여 대규모 서비스에서도 코드 구조와 의존성을 일관되게 유지하기 용이하다고 판단하여 Nest.js로 재작성 및 개선하기로 결정.
 pnpm 모노레포 구조로 앱(apps)과 공유 라이브러리(libs)를 분리 관리하며, 반복적인 셋업 비용을 줄이는 것을 목표로 지속 개선 중.
 
 **아키텍처**
@@ -12,7 +14,8 @@ pnpm 모노레포 구조로 앱(apps)과 공유 라이브러리(libs)를 분리 
 - common, pagination, prisma, email, upload 등 공유 라이브러리 모듈화
 
 **인증 & 보안**
-- **OAuth 소셜 로그인** (Google, Kakao, Naver) — passport 없이 native fetch 방식으로 직접 구현, CSRF state 검증 포함
+- **OAuth 소셜 로그인** (Google, Kakao, Naver) — passport 없이 native fetch 방식으로 직접 구현, CSRF state 검증 포함.
+  Passport 대신 native OAuth 흐름을 직접 구현하여 불필요한 abstraction을 줄이고 디버깅 및 커스터마이징 용이성 확보
 - JWT 쿠키 기반 인증 (AccessToken / RefreshToken), 역할 기반 접근 제어 (USER / ADMIN / MODERATOR / DEVELOPER), 레이트 리미팅
 
 **인프라 & 개발 환경**
@@ -29,6 +32,7 @@ URL: [https://github.com/rlidea/weaver2](https://github.com/rlidea/weaver2)
     Node.js, Express.js, Sequelize, Passport
 
 express.js 기반 웹 프레임워크 보일러플레이트. weaver2의 전신.
+신규 서비스 초기 세팅 시 반복되는 구조 설계·인증·인프라 구성 비용을 줄이기 위해 확장 가능한 백엔드 베이스라인을 목표로 설계.
 
 - Router / Model / Query / Controller 레이어 분리
 - Sequelize ORM 관리, dotenv 환경변수 관리

@@ -51,7 +51,7 @@ module.exports = {
       //   link: '/blog/'
       // },
       {
-        text: 'github',
+        text: 'GitHub',
         link: 'https://github.com/centell/'
       },
     ],

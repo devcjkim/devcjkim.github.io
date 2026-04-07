@@ -39,7 +39,7 @@ module.exports = {
         link: '/resume/',
       },
       {
-        text: '주요경력기술서',
+        text: '경력기술서',
         link: '/experience/'
       },
       {

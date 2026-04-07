@@ -4,6 +4,7 @@
 
 ### [Service] 와이펫 — 반려동물 건강관리 B2C 플랫폼
     NestJS(TypeScript), Flutter, MongoDB, Redis, AWS(ECS, Amplify, S3, CloudWatch), GitHub Actions
+> 역할: 개발팀장. 백엔드 아키텍처 설계 및 서비스 전반 개발 주도
 
 - 반려동물 체온 측정 칩 및 블루투스 스캐너와 연동하여 체온 데이터를 수집·관리하는 플랫폼 개발
 - NestJS 기반 백엔드 모노레포 아키텍처 설계 및 구축 (메인 서비스, 펫스테이션, 공통 라이브러리 구조 포함)
@@ -11,6 +12,8 @@
 - 개체별 평소 체온 산출 알고리즘을 설계·구현하여 개인화된 이상 탐지 기능 적용 (특허 진행 중)
 - 쿠폰 시스템, 이벤트 모듈, QR 기반 도장깨기 등 핵심 서비스 기능 개발
 - AWS 인프라 최적화 및 구조 개선을 통해 운영 비용 절감 (AWS 크레딧 $5,750 활용)
+
+URL: https://ypet.co.kr
 
 ### [Service] 와이펫 세이프 — 체온 스캐너 B2B 솔루션
     NestJS(TypeScript), MongoDB, AWS
@@ -27,6 +30,8 @@
 -	POS, 키오스크, 무인 주문 시스템 도입 및 다중 결제 시스템 연동
 -	매장 운영 데이터 및 정산 데이터 수집/관리 파이프라인 설계
 -	오프라인 매장과 온라인 플랫폼 간 데이터 연동 구조 설계
+
+- URL: https://www.ypetsafe.com/
 
 ### [Desktop App] 호원소프트 — 블루투스 스캐너 연동 윈도우 프로그램
     Electron, TypeScript, SQLite, Bluetooth
@@ -51,6 +56,8 @@
 - 외주 프로젝트 개발 담당으로 유지보수 및 신규 기능 개발 수행
 - 기존 서비스 구조 분석 후 안정적인 기능 확장 진행
 - 작업 이력을 체계적으로 관리하며 개발 프로세스 유지
+
+https://www.sb-solutions.co.kr/product/soomirang
 
 ## 월간해킹 (2021 - 2023)
 ### [Server] Penet-checker-backend

@@ -267,7 +267,8 @@ footer: devcjkim.github.io
     <a href="/experience">
       <h2>Experience</h2>
       <p>
-        해결한 주요 문제, 사용한 기술, 그리고 기여 내용을 소개합니다.
+        해결한 주요 문제, 사용한 기술, <br/>
+        그리고 기여 내용을 소개합니다.
       </p>
     </a>
   </div>

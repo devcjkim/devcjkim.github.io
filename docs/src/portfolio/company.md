@@ -122,7 +122,7 @@ https://www.sb-solutions.co.kr/product/soomirang
 - 무인 매장 서비스 관리자 페이지 유지보수 및 기능 개선
 - 기존 API 연동 및 기능 확장 작업 수행
 
-## Youyishou  (2019 - 2020)
+## Youyishou (2019 - 2020)
 ### 디어유 프로젝트
     2019. 01. - 2020. 06.
     Express(Node.js), AWS, sequelize, passport, mariaDB, github

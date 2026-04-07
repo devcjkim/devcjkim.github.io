@@ -101,7 +101,7 @@ https://www.sb-solutions.co.kr/product/soomirang
 
 ## 와이폴라리스 (2020 - 2021)
 ### [Server] Ketsup API 서버
-    Express(Node.js, javascript), AWS, sequelize, passport, mariaDB, github 등
+    Express(Node.js, javascript), AWS, sequelize, passport, mariaDB, GitHub 등
 
 - REST API 서버 신규 구축 및 시스템 설계 참여
 - 시스템 기획 및 개발 전략 문서화, 개발 환경 구축, 서버 및 백엔드 개발 등
@@ -125,7 +125,7 @@ https://www.sb-solutions.co.kr/product/soomirang
 ## Youyishou (2019 - 2020)
 ### 디어유 프로젝트
     2019. 01. - 2020. 06.
-    Express(Node.js), AWS, sequelize, passport, mariaDB, github
+    Express(Node.js), AWS, sequelize, passport, mariaDB, GitHub
 
 - 기존 시스템 구조 분석 및 개선된 아키텍처 제안 및 개발 주도
 - Docker 기반 개발 환경 구성 및 협업 환경 표준화
